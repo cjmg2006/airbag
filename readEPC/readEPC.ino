@@ -79,20 +79,24 @@ void loop()
   
   int numTagsRead = 0; 
 
-  byte tags[36]; // 3 tags
+  byte tags[36] = {0}; // 3 tags
 
-
-  while(numTagsRead < 3) { 
+  if(numTagsRead < 3) { 
     byte myEPClength = 12; 
     byte responseType = 0; 
+    
     while(responseType != RESPONSE_SUCCESS) { 
       responseType  = nano.readTagEPC(tags[numTagsRead * myEPClength], myEPClength, 500); 
+//      printEPC(myEPC, 0);
+//      memcpy(tags[numTagsRead * myEPClength], myEPC, myEPClength);
       Serial.println(F("Searching for tag...")); 
     }
 
     printEPC(tags, numTagsRead);
+    
+    beep();
     numTagsRead++; 
-    beep(); 
+
 
   }
 
