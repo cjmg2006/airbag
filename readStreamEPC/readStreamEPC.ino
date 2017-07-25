@@ -12,7 +12,7 @@ void setup() {
 
   if (setupNano(38400) == false) //Configure nano to run at 38400bps
   {
-    Serial.println(F("Module failed to respond. Please check wiring."));
+//    Serial.println(F("Module failed to respond. Please check wiring."));
     while (1); //Freeze!
   }
 
@@ -55,8 +55,8 @@ struct EPCs {
       tags[num][i] = tag[i];
     }
     num++; 
-    Serial.print("Num tags saved: ");
-    Serial.println(num); 
+//    Serial.print("Num tags saved: ");
+//    Serial.println(num); 
     printTag(tags[num-1], tagEPCBytes);
   }
 
@@ -85,7 +85,7 @@ void loop() {
         byte responseType = nano.parseResponse(); 
     
         if (responseType == RESPONSE_IS_KEEPALIVE) {
-          Serial.println(F("Scanning")); 
+//          Serial.println("Scanning"); 
         } else if ( responseType == RESPONSE_IS_TAGFOUND) { 
             byte tagEPCBytes = nano.getTagEPCBytes(); //Get the number of bytes of EPC from response
             if (epcs.num < 3 && tagEPCBytes > 0) { 
@@ -96,14 +96,13 @@ void loop() {
                 epcs.save(currTag, tagEPCBytes); 
               }
             } 
-        }
-        
-      }
-
+        }  
+    }
   }
-    
-}
 
+  // Process tags
+  //https://arduino.stackexchange.com/questions/11637/how-to-transfer-data-from-arduino-to-some-software-in-computer
+}
 
 //Gracefully handles a reader that is already configured and already reading continuously
 //Because Stream does not have a .begin() we have to do this outside the library
