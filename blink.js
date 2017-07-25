@@ -5,6 +5,9 @@ var crypto = require('crypto');
 var MerkleTools = require('./merkle-tools/merkletools.js');
 var readline = require('readline');
 var SerialPort = require('serialport');
+var express = require('express');
+var path = require('path');
+var app = express();
 
 
 /*******************************************/
@@ -95,31 +98,17 @@ realAirbagRoots = createMerkleRoots('A', 'C', 'E');
 // console.log(realAirbagRoots);
 
 /*******************************************/
-// Part B: Reading from Arduino code 
+// Part B1: Functions for serialport and checking
 /*******************************************/
-
-var port = new SerialPort('/dev/cu.usbmodem1421', {
-  baudRate: 115200, 
-  parser: SerialPort.parsers.readline("\n")
-});
-
-port.on("open", openFn); 
-port.on("data", dataFn); 
-port.on("error", errorFn); 
-port.on("close", closeFn); 
-
 
 function openFn() { 
 	console.log('Communication is on!');
 }
 
 function dataFn(data) {
-	// console.log(data);
-	 
 	if (data ===  "Scanning\r" || data === "Go!\r" || data === "Module continuously reading. Asking it to stop...\r") {
 		 
-	} else {
-		 
+	} else { 
 		numTagsRead++;
 		EPCTagStrings.push(data); 
 		console.log("Num tags read: " + numTagsRead);
@@ -139,9 +128,7 @@ function hexToAscii(tagCharArray) { // tagCharArray is a character array e.g. [ 
 		var ch = String.fromCharCode(parseInt(tagCharArray[i], 16));
 		result += ch;
 	}
-
 	return result;
-
 }
 
 function processTags() { 
@@ -164,10 +151,21 @@ function checkAgainstMerkleTree() {
 	console.log("Do we have the correct parts? " + match);
 }
 
-function errorFn() {
+function errorFn() {}
+function closeFn() {}
 
-}
+/*******************************************/
+// Part B2: Reading from Arduino code 
+/*******************************************/
 
-function closeFn() {
+var port = new SerialPort('/dev/cu.usbmodem1421', {
+  baudRate: 115200, 
+  parser: SerialPort.parsers.readline("\n")
+});
 
-}
+port.on("open", openFn); 
+port.on("data", dataFn); 
+port.on("error", errorFn); 
+port.on("close", closeFn); 
+
+
