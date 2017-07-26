@@ -69,20 +69,29 @@ var io = require('socket.io')(server);
 io.on('connection', function(socket){
   numClients++; 
   console.log('A user connected');
-  console.log('Num users connected: ' + numClients);
-  io.sockets.emit('broadcast',{ description: numClients + ' clients connected!'});
+  io.sockets.emit('broadcast',{ description: numClients + ' clients connected!', msgType: 'log'});
 
+  // respond to click button 
+  socket.on('clientEvent', function(data){
+  	console.log(data);
+  	sendToSerial(data);
+  });
 
   //Whenever someone disconnects this piece of code executed
   socket.on('disconnect', function () {
   	numClients--; 
     console.log('A user disconnected');
-    io.sockets.emit('broadcast',{ description: numClients + ' clients connected!'});
-
+    io.sockets.emit('broadcast',{ description: numClients + ' clients connected!', msgType: 'log'});
+    resetTags(); 
   });
 
 });
 
+function resetTags() { 
+	numTagsRead = 0; 
+	EPCTagStrings = [];
+	EPCTags = [];
+}
 
 /*******************************************/
 // Part A1: Merkle Tree Functions 
@@ -145,7 +154,7 @@ function verifyRoot(r, roots)  {
 /*******************************************/
 // Part A2: Generate Merkle Tree for Legits
 /*******************************************/
-realAirbagRoots = createMerkleRoots('A', 'C', 'E');
+realAirbagRoots = createMerkleRoots('A', 'B', 'C');
 // console.log(realAirbagRoots);
 
 /*******************************************/
@@ -157,22 +166,30 @@ function openFn() {
 }
 
 function dataFn(data) {
-	if (data ===  "Scanning\r" || data === "Go!\r" || data === "Module continuously reading. Asking it to stop...\r" || data === "Enter 'k' to begin read\r") {
+	if (data ===  "Scanning\r" || data === "Go!\r" || data === "Module continuously reading. Asking it to stop...\r" || data === "Enter 'k' to begin read\r" || data === "Read all 3 tags\r" || data === "Ready to read!\r") {
 		 
-	} else if (data === "ready\r") {
-		console.log("Ready to scan new airbag"); 
+	} else if (data === "Enter 'k' to begin read\r") {
+		console.log("Click button to scan"); 
 	} else { 
+
 		numTagsRead++;
 		EPCTagStrings.push(data); 
+		console.log("Data: " + data);
 		console.log("Num tags read: " + numTagsRead);
 		// console.log(EPCTagStrings);
+
+		if(numTagsRead % 3 == 0) {
+			
+			console.log("Collected all tags! Woohoo!");
+			processTags(); 
+			console.log(EPCTags);
+			checkAgainstMerkleTree(); 
+			resetTags();
+
+		}
 	}
 
-	if(numTagsRead == 3) {
-		console.log("Collected all tags! Woohoo!");
-		processTags(); 
-		checkAgainstMerkleTree(); 
-	}
+
 }
 
 function hexToAscii(tagCharArray) { // tagCharArray is a character array e.g. [ '32', '44', '43', '30', '33', '33', '44', '31', '34', '32', '33', '33' ]
@@ -210,11 +227,17 @@ function errorFn() {}
 function closeFn() {}
 
 /*******************************************/
-// Part C1: Sending to web client
+// Part C1: Sending and receiving from web client
 /*******************************************/
 
 function broadcastToClient(data) { 
-	io.sockets.emit('broadcast', { description: data});
+	io.sockets.emit('broadcast', { description: data, type: 'update'});
+}
+
+function sendToSerial(data) { // data = 'k'
+	assert(data === 'k'); 
+	port.write(data);
+
 }
 
 /*******************************************/

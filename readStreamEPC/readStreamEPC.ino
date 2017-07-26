@@ -82,7 +82,6 @@ void printTag(byte * tag, byte tagEPCBytes) {
 
 void loop() {
   if(Serial.available() > 0) { 
-    Serial.println("Received an input");
 
     int ch = Serial.read(); 
      if( ch == 'k') { 
