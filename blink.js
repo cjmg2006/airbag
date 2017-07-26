@@ -32,6 +32,30 @@ var treeOptions = {
   hashType: 'sha256' // optional, defaults to 'sha256'
 };
 
+/*******************************************/
+// Express.js related variables 
+/*******************************************/
+
+var message;
+
+// Define the port to run on
+app.set('port', 8080);
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Listen for requests
+var server = app.listen(app.get('port'), function() {
+  var port = server.address().port;
+  console.log('Magic happens on port ' + port);
+});
+
+app.get('/', function(req, res){
+   res.send("Hello world!");
+});
+
+app.use('/data', function (req, res) {
+  console.log("i'm trying");
+  res.json(message);
+});
 
 /*******************************************/
 // Part A1: Merkle Tree Functions 
@@ -148,6 +172,7 @@ function checkAgainstMerkleTree() {
 	var tree = createMerkleTree(EPCTags); 
 	var root = tree.getMerkleRoot(); 
 	var match = verifyRoot(root, realAirbagRoots); 
+	message = "We have a match? " + match;
 	console.log("Do we have the correct parts? " + match);
 }
 
