@@ -33,7 +33,7 @@ var treeOptions = {
 };
 
 /*******************************************/
-// Express.js related variables 
+// Express.js related variables and event functions 
 /*******************************************/
 
 var message;
@@ -56,6 +56,33 @@ app.use('/data', function (req, res) {
   console.log("i'm trying");
   res.json(message);
 });
+
+/*******************************************/
+// Socket.io related variables
+/*******************************************/
+
+var numClients = 0; 
+
+var io = require('socket.io')(server);
+
+//Whenever someone connects this gets executed
+io.on('connection', function(socket){
+  numClients++; 
+  console.log('A user connected');
+  console.log('Num users connected: ' + numClients);
+  io.sockets.emit('broadcast',{ description: numClients + ' clients connected!'});
+
+
+  //Whenever someone disconnects this piece of code executed
+  socket.on('disconnect', function () {
+  	numClients--; 
+    console.log('A user disconnected');
+    io.sockets.emit('broadcast',{ description: numClients + ' clients connected!'});
+
+  });
+
+});
+
 
 /*******************************************/
 // Part A1: Merkle Tree Functions 
@@ -130,8 +157,10 @@ function openFn() {
 }
 
 function dataFn(data) {
-	if (data ===  "Scanning\r" || data === "Go!\r" || data === "Module continuously reading. Asking it to stop...\r") {
+	if (data ===  "Scanning\r" || data === "Go!\r" || data === "Module continuously reading. Asking it to stop...\r" || data === "Enter 'k' to begin read\r") {
 		 
+	} else if (data === "ready\r") {
+		console.log("Ready to scan new airbag"); 
 	} else { 
 		numTagsRead++;
 		EPCTagStrings.push(data); 
@@ -174,10 +203,19 @@ function checkAgainstMerkleTree() {
 	var match = verifyRoot(root, realAirbagRoots); 
 	message = "We have a match? " + match;
 	console.log("Do we have the correct parts? " + match);
+	broadcastToClient(match); 
 }
 
 function errorFn() {}
 function closeFn() {}
+
+/*******************************************/
+// Part C1: Sending to web client
+/*******************************************/
+
+function broadcastToClient(data) { 
+	io.sockets.emit('broadcast', { description: data});
+}
 
 /*******************************************/
 // Part B2: Reading from Arduino code 

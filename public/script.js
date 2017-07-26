@@ -1,18 +1,31 @@
-var baseURL = "http://localhost:8080";
+'use strict' 
+
+var socket = io.connect('/');
+
+socket.on('open', function(data) {
+  console.log("Connection established!");
+  socket.send("Hello Server!")
+  
+  // socket.emit ('clientMessage', 'b');
+   
+});
+
+socket.on('broadcast',function(data){
+	var real = data.description; 
+	displayResult(real); 
+  	document.body.innerHTML = '';
+  	document.write(data.description);
+});
+
+socket.on('testerEvent', function(data){document.write(data.description)});
 
 
-window.onload = function() {
-	getData();
-    
-};
+socket.on('message', function(data) {
+  // console.log(data);
+});
 
-function getData() {
-    $.ajax({
-        method: "GET",
-        url: baseURL + `/data`
-    }).done(function(res) {
-        console.log("The data is " + res);
-    })
-
-
+function displayResult(real) { 
+	var color = real ? 'green' : 'red'; 
+	var msg = real ? 'This is a real airbag' : 'This is a fake airbag' ; 
+	$('body').css("background-color", color);
 }

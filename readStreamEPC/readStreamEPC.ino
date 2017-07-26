@@ -24,6 +24,7 @@ void setup() {
   nano.startReading(); //Begin scanning for tags
 
   Serial.println("Go!");
+  Serial.println("Enter 'k' to begin read");
 
 }
 
@@ -80,25 +81,58 @@ void printTag(byte * tag, byte tagEPCBytes) {
 }
 
 void loop() {
-  while (epcs.num < 3) {
-    if ( nano.check() == true) { 
-        byte responseType = nano.parseResponse(); 
+  if(Serial.available() > 0) { 
+    Serial.println("Received an input");
+
+    int ch = Serial.read(); 
+     if( ch == 'k') { 
+      Serial.println("Ready to read!"); 
+      while (epcs.num < 3) {
+        if ( nano.check() == true) { 
+            byte responseType = nano.parseResponse(); 
+        
+            if (responseType == RESPONSE_IS_KEEPALIVE) {
+    //          Serial.println("Scanning"); 
+            } else if ( responseType == RESPONSE_IS_TAGFOUND) { 
+                byte tagEPCBytes = nano.getTagEPCBytes(); //Get the number of bytes of EPC from response
+                if (epcs.num < 3 && tagEPCBytes > 0) { 
+                  byte currTag[tagEPCBytes];
+                  getEPC(currTag, tagEPCBytes);
+      //            printTag(currTag, tagEPCBytes); 
+                  if(!epcs.contains(currTag)) {
+                    epcs.save(currTag, tagEPCBytes); 
+                  }
+                } 
+            }  
+        }
+      }
+      Serial.println("Read all 3 tags");
+      Serial.println("Enter 'k' to begin read");
+      epcs.num = 0;
+     }
     
-        if (responseType == RESPONSE_IS_KEEPALIVE) {
-//          Serial.println("Scanning"); 
-        } else if ( responseType == RESPONSE_IS_TAGFOUND) { 
-            byte tagEPCBytes = nano.getTagEPCBytes(); //Get the number of bytes of EPC from response
-            if (epcs.num < 3 && tagEPCBytes > 0) { 
-              byte currTag[tagEPCBytes];
-              getEPC(currTag, tagEPCBytes);
-  //            printTag(currTag, tagEPCBytes); 
-              if(!epcs.contains(currTag)) {
-                epcs.save(currTag, tagEPCBytes); 
-              }
-            } 
-        }  
-    }
   }
+//  char ch = Serial.read();
+//  Serial.println(); 
+//  while (epcs.num < 3) {
+//      if ( nano.check() == true) { 
+//          byte responseType = nano.parseResponse(); 
+//      
+//          if (responseType == RESPONSE_IS_KEEPALIVE) {
+//  //          Serial.println("Scanning"); 
+//          } else if ( responseType == RESPONSE_IS_TAGFOUND) { 
+//              byte tagEPCBytes = nano.getTagEPCBytes(); //Get the number of bytes of EPC from response
+//              if (epcs.num < 3 && tagEPCBytes > 0) { 
+//                byte currTag[tagEPCBytes];
+//                getEPC(currTag, tagEPCBytes);
+//    //            printTag(currTag, tagEPCBytes); 
+//                if(!epcs.contains(currTag)) {
+//                  epcs.save(currTag, tagEPCBytes); 
+//                }
+//              } 
+//          }  
+//      }
+//  }
 
   // Process tags
   //https://arduino.stackexchange.com/questions/11637/how-to-transfer-data-from-arduino-to-some-software-in-computer
