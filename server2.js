@@ -13,9 +13,7 @@ var app = express();
 /*******************************************/
 // Global Variables
 /*******************************************/
-var numTagsRead = 0; 
-var EPCTagStrings = [];
-var EPCTags = []; 
+var EPCTags = []; // Stores the Tag EPC IDs
 
 // Stored components for Merkle Tree
 var componentA = "SDR170318466"
@@ -85,17 +83,9 @@ io.on('connection', function(socket){
     resetTags(); 
   });
 
-  socket.on('beep', function(data) {
-	sendToSerial(data); 
-  });
-
 });
 
-
-
 function resetTags() { 
-	numTagsRead = 0; 
-	EPCTagStrings = [];
 	EPCTags = [];
 }
 
@@ -167,6 +157,16 @@ realAirbagRoots = createMerkleRoots('A', 'B', 'C');
 // Part B1: Functions for serialport and checking
 /*******************************************/
 
+function addEPCData(data) { 
+	var tagString = EPCTagStrings[i]; 
+	var tagChars = tagString.split(" ");
+	tagChars.splice(-1,1);
+	// console.log(tagChars);
+	var tag = hexToAscii(tagChars);  // tag is a 12-char string e.g. "ST31D12dEWG"
+	EPCTags.push(tag); 
+}
+
+
 function openFn() { 
 	console.log('Communication is on!');
 }
@@ -178,20 +178,15 @@ function dataFn(data) {
 		console.log("Click button to scan"); 
 	} else { 
 
-		numTagsRead++;
 		EPCTagStrings.push(data); 
 		console.log("Data: " + data);
-		console.log("Num tags read: " + numTagsRead);
+		addEPCData(data); 
+		 
 		// console.log(EPCTagStrings);
 
-		if(numTagsRead % 3 == 0) {
-			
-			console.log("Collected all tags! Woohoo!");
-			processTags(); 
-			console.log(EPCTags);
+		if(EPCTags.length  == 3) {
 			checkAgainstMerkleTree(); 
 			resetTags();
-
 		}
 	}
 
@@ -226,7 +221,7 @@ function checkAgainstMerkleTree() {
 	var match = verifyRoot(root, realAirbagRoots); 
 	message = "We have a match? " + match;
 	console.log("Do we have the correct parts? " + match);
-	broadcastMatchToClient(match); 
+	broadcastToClient(match); 
 }
 
 function errorFn() {}
@@ -236,13 +231,14 @@ function closeFn() {}
 // Part C1: Sending and receiving from web client
 /*******************************************/
 
-function broadcastMatchToClient(match) { 
-	io.sockets.emit('broadcast', { description: match, msgType: 'update'});
+function broadcastToClient(data) { 
+	io.sockets.emit('broadcast', { description: data, type: 'update'});
 }
 
-
 function sendToSerial(data) { // data = 'k'
+	assert(data === 'k'); 
 	port.write(data);
+
 }
 
 /*******************************************/

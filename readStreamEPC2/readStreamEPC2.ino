@@ -5,19 +5,9 @@ SoftwareSerial softSerial(2, 3); //RX, TX
 #include "SparkFun_UHF_RFID_Reader.h" //Library for controlling the M6E Nano module
 RFID nano; //Create instance
 
-#define BUZZER1 9
-//#define BUZZER1 0 //For testing quietly
-#define BUZZER2 10
-
 
 void setup() {
   Serial.begin(115200);
-
-  pinMode(BUZZER1, OUTPUT);
-  pinMode(BUZZER2, OUTPUT);
-
-  digitalWrite(BUZZER2, LOW); //Pull half the buzzer to ground and drive the other half.
-  
   while (!Serial); //Wait for the serial port to come online
 
   if (setupNano(38400) == false) //Configure nano to run at 38400bps
@@ -61,14 +51,13 @@ struct EPCs {
     return false;
   }
 
-  void save (byte * tag, byte tagEPCBytes) { 
+  void save (byte * tag, byte tagEPCBytes) {
+    Serial.println("Scanned new tag!"); 
     for(byte i = 0; i < tagEPCBytes; i++) { 
       tags[num][i] = tag[i];
     }
+    printTag(tags[num], tagEPCBytes);
     num++; 
-//    Serial.print("Num tags saved: ");
-//    Serial.println(num); 
-    printTag(tags[num-1], tagEPCBytes);
   }
 
   
@@ -90,17 +79,28 @@ void printTag(byte * tag, byte tagEPCBytes) {
   Serial.println(); 
 }
 
+void resetEPCs() { 
+   epcs.num = 0; 
+   for(int i = 0; i < 3; i++ ) {
+    for(int j = 0; j < 12 ; j++) {
+      epcs.tags[i][j] = 0;
+    }
+   }
+}
+
 void loop() {
   if(Serial.available() > 0) { 
+
     int ch = Serial.read(); 
      if( ch == 'k') { 
+      resetEPCs(); 
       Serial.println("Ready to read!"); 
       while (epcs.num < 3) {
         if ( nano.check() == true) { 
-            byte responseType = nano.parseResponse(); 
-            if ( responseType == RESPONSE_IS_TAGFOUND) { 
+           byte responseType = nano.parseResponse(); 
+           if ( responseType == RESPONSE_IS_TAGFOUND) { 
                 byte tagEPCBytes = nano.getTagEPCBytes(); //Get the number of bytes of EPC from response
-                if (epcs.num < 3 && tagEPCBytes > 0) { 
+                if (tagEPCBytes > 0) { 
                   byte currTag[tagEPCBytes];
                   getEPC(currTag, tagEPCBytes);
       //            printTag(currTag, tagEPCBytes); 
@@ -111,33 +111,12 @@ void loop() {
             }  
         }
       }
+      Serial.println("Read all 3 tags");
+      delay(1000);
+      Serial.println("Enter 'k' to begin read");
 
       
-      Serial.println("Read all 3 tags");
-      Serial.println("Enter 'k' to begin read");
-      epcs.num = 0;
      }
-
-     if( ch == 't') { 
-          //Beep! Piano keys to frequencies: http://www.sengpielaudio.com/KeyboardAndFrequencies.gif
-          tone(BUZZER1, 2093, 150); //C
-          delay(150);
-          tone(BUZZER1, 2349, 150); //D
-          delay(150);
-          tone(BUZZER1, 2637, 150); //E
-          delay(150);                
-      }
-
-      if( ch == 'f') {
-          //Beep! Piano keys to frequencies: http://www.sengpielaudio.com/KeyboardAndFrequencies.gif
-          tone(BUZZER1, 2637, 150); //E
-          delay(150);
-          tone(BUZZER1, 2349, 150); //D
-          delay(150);
-          tone(BUZZER1, 2093, 150); //C
-          delay(150);
-          
-      }
     
   }
 //  char ch = Serial.read();
