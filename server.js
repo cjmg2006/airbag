@@ -251,7 +251,7 @@ function sendToSerial(data) { // data = 'k'
 
 var port = new SerialPort('/dev/cu.usbmodem1421', {
   baudRate: 115200, 
-  parser: SerialPort.parsers.readline("\n")
+  parser: SerialPort.parsers.Readline
 });
 
 port.on("open", openFn); 
