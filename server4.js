@@ -161,6 +161,7 @@ function verifyRoot(r, roots)  {
 // Part A2: Generate Merkle Tree for Legits
 /*******************************************/
 realAirbagRoots = createMerkleRoots('A', 'B', 'C');
+console.log(realAirbagRoots[0].inspect());
 // console.log(realAirbagRoots);
 
 /*******************************************/
@@ -173,7 +174,9 @@ function openFn() {
 
 function isTag(data) { 
 	// var result = false; 
-	return data.match(/\b[0-9A-Fa-f\s]{12}\b/g);
+	console.log("Trying to check on this data: " + data); 
+	var regex = /\b[0-9A-Fa-f\s]{12}\b/
+	return String(data).match(regex);
 	// return result;
 }
 
