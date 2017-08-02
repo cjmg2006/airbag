@@ -168,7 +168,7 @@ realAirbagRoots = createMerkleRoots('A', 'B', 'C');
 /*******************************************/
 
 function openFn() { 
-	console.log('Communication is on!');
+	console.log('Communication is on! Successfully connected to Serial on Arduino');
 }
 
 function dataFn(data) {
