@@ -8,6 +8,7 @@ var SerialPort = require('serialport');
 var express = require('express');
 var path = require('path');
 var app = express();
+var sizeof = require('object-sizeof');
 
 
 /*******************************************/
@@ -161,7 +162,7 @@ function verifyRoot(r, roots)  {
 // Part A2: Generate Merkle Tree for Legits
 /*******************************************/
 realAirbagRoots = createMerkleRoots('A', 'B', 'C');
-// console.log(realAirbagRoots);
+console.log(sizeof(realAirbagRoots));
 
 /*******************************************/
 // Part B1: Functions for serialport and checking
