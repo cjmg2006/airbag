@@ -169,10 +169,11 @@ console.log(sizeof(realAirbagRoots));
 /*******************************************/
 
 function openFn() { 
-	console.log('Communication is on! Successfully connected to Serial on Arduino');
+	console.log('Communication is on! Successfully connected to Serial');
 }
 
 function dataFn(data) {
+	console.log(data);
 	if (data ===  "Scanning\r" || data === "Go!\r" || data === "Module continuously reading. Asking it to stop...\r" || data === "Enter 'k' to begin read\r" || data === "Read all 3 tags\r" || data === "Ready to read!\r") {
 		 
 	} else if (data === "Enter 'k' to begin read\r") {

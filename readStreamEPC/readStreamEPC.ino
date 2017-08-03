@@ -106,6 +106,7 @@ void loop() {
       //            printTag(currTag, tagEPCBytes); 
                   if(!epcs.contains(currTag)) {
                     epcs.save(currTag, tagEPCBytes); 
+                    
                     tone(BUZZER1, 2093, 150); //C
                     delay(150);
                     tone(BUZZER1, 2349, 150); //D
