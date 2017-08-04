@@ -197,7 +197,7 @@ function writeTagsToBlockchain(status) {  // writes all variants to blockchain
 		var root = tree.getMerkleRoot(); 
 
 		var aID = root.toString('hex');
-		var data = {airbagID: nonce + aID, status: 'Installed (Verified)',  vin: '1HGCM2633A' + nonce, location: 'San Francisco, CA' , statusCode: 1}
+		var data = {airbagID: nonce + aID, status: 'Manufactured',  vin: '1HGCM2633A' + nonce, location: 'San Francisco, CA' , statusCode: 0}
 		if(i == 0) writeToDisplay(data); // DISPLAY ON FRONT-END
 
 		var payload = generatePayload(data, status); 
@@ -210,7 +210,9 @@ function writeTagsToBlockchain(status) {  // writes all variants to blockchain
 }
 
 function scanBlockchainForTag() {
-
+	// use the airbagID + add '0' as nonce
+	// search for that in database 
+	// if there, then good. if not, then bad. 
 }
 
 
