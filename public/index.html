@@ -3,58 +3,52 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href = "client.css"> </link>
-	<link href="https://fonts.googleapis.com/css?family=Maitree:400, 600" rel="stylesheet"></link>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<title> BlokMotiv </title> 
+	<meta charset = "utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href = "main.css"> </link>
+
+	<!-- <link href="main.css" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Baskerville:700|Open+Sans|Open+Sans:700|Open+Sans:600" rel="stylesheet"> -->
 	 
-</head>
+</head> 
+
+
 
 <body>
-		<!-- component template -->
-	<script type="text/x-template" id="grid-template">
-	  <table>
-	    <thead>
-	      <tr>
-	        <th v-for="key in columns"
-	          @click="sortBy(key)"
-	          :class="{ active: sortKey == key }">
-	          {{ key | capitalize }}
-	          <span class="arrow" :class="sortOrders[key] > 0 ? 'asc' : 'dsc'">
-	          </span>
-	        </th>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <tr v-for="entry in filteredData" :class="{ invalid: entry['statusCode'] == 2, valid: entry['statusCode'] == 1}" >
-	        <td v-for="key in columns">
-	          {{entry[key]}}
-	        </td>
-	      </tr>
-	    </tbody>
-	  </table>
-	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<div class = "container"> 
-		<!-- demo root element -->
-		<div id="demo">
+	<div class = "container">
 
-			<div class="searchBar">
-	 		    <input id = "search" name="query" v-model="searchQuery" placeholder="Filter entries using keywords"/>
-		  	</div>
-
-		  <demo-grid
-		    :data="gridData"
-		    :columns="gridColumns"
-		    :filter-key="searchQuery">
-		  </demo-grid>
-
-
+		<div class = "col-md-3"></div> 
+		<div class = "col-md-6">
+			  <div class = "col-md-12"> <h1>BlokMotiv</h1> </div> 
+			  <div class = "col-md-12"> 
+			  	<button type="button" class = "btn-lg" id = "scan-btn">Begin Scan</button> 
+			  	<p id = "displaymsg"></p>
+			  </div> 
 		</div>
-	</div>
+		<div class = "col-md-3"/> 
+		 
+
+
+		
+	<!-- <div> 
+		<p> Hello </p>
+		 
+	</div> -->
+	</div>	
 </body>
 
-<script src="https://unpkg.com/vue"></script>
+<script src = "script.js"> </script>
 <script src="/socket.io/socket.io.js"></script> 
-<script src="clientScript.js"></script>
 
-</html>
+
+</html> 

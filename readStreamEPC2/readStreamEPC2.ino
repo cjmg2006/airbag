@@ -65,10 +65,10 @@ struct EPCs {
     for(byte i = 0; i < tagEPCBytes; i++) { 
       tags[num][i] = tag[i];
     }
-    printTag(tags[num], tagEPCBytes);
+//    printTag(tags[num], tagEPCBytes);
 
     num++; 
-    Serial.println(num);
+//    Serial.println(num);
 //    Serial.print("Num tags saved: ");
 //    Serial.println(num); 
   }
@@ -79,24 +79,11 @@ struct EPCs {
         for (int i = 0; i < 12; i++) {
           Serial.print(tags[j][i], HEX); 
           Serial.print(F(" ")); 
-      }
-      Serial.println();
+        }
+        Serial.print(F("  "));
       
-    }
-   
-//    byte * t = (byte*) & tags;
-//    for(byte i = 0; i++ ; i < 3) {
-//      byte * tag = t + i * 12; 
-//      for (byte x = 0; x < 12; x++ ) { 
-//        Serial.print( tag[x], HEX);  
-////        Serial.print(typeof(tags[i][x]));
-//        Serial.print(F(" ")); 
-//      }
-//     Serial.println(); 
-  //    byte * tag = epcs.tags[i]; 
-  // printTag(tag, 12);
-    
-//    }
+      }
+    Serial.println("w");
   }
 
   void reset() {

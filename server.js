@@ -41,7 +41,7 @@ var treeOptions = {
 var message;
 
 // Define the port to run on
-app.set('port', 8080);
+app.set('port', 3000);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Listen for requests
@@ -175,28 +175,28 @@ function openFn() {
 
 function dataFn(data) {
 	console.log(data);
-	if (data ===  "Scanning\r" || data === "Go!\r" || data === "Module continuously reading. Asking it to stop...\r" || data === "Enter 'k' to begin read\r" || data === "Read all 3 tags\r" || data === "Ready to read!\r") {
+	// if (data ===  "Scanning\r" || data === "Go!\r" || data === "Module continuously reading. Asking it to stop...\r" || data === "Enter 'k' to begin read\r" || data === "Read all 3 tags\r" || data === "Ready to read!\r") {
 		 
-	} else if (data === "Enter 'k' to begin read\r") {
-		console.log("Click button to scan"); 
-	} else { 
+	// } else if (data === "Enter 'k' to begin read\r") {
+	// 	console.log("Click button to scan"); 
+	// } else { 
 
-		numTagsRead++;
-		EPCTagStrings.push(data); 
-		console.log("Data: " + data);
-		console.log("Num tags read: " + numTagsRead);
-		// console.log(EPCTagStrings);
+	// 	numTagsRead++;
+	// 	EPCTagStrings.push(data); 
+	// 	console.log("Data: " + data);
+	// 	console.log("Num tags read: " + numTagsRead);
+	// 	// console.log(EPCTagStrings);
 
-		if(numTagsRead % 3 == 0) {
+	// 	if(numTagsRead % 3 == 0) {
 			
-			console.log("Collected all tags! Woohoo!");
-			processTags(); 
-			console.log(EPCTags);
-			checkAgainstMerkleTree(); 
-			resetTags();
+	// 		console.log("Collected all tags! Woohoo!");
+	// 		processTags(); 
+	// 		console.log(EPCTags);
+	// 		checkAgainstMerkleTree(); 
+	// 		resetTags();
 
-		}
-	}
+	// 	}
+	// }
 
 
 }
