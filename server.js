@@ -9,6 +9,7 @@ var express = require('express');
 var path = require('path');
 var app = express();
 var sizeof = require('object-sizeof');
+var io = require('socket.io')(server);
 
 
 /*******************************************/
@@ -64,7 +65,7 @@ app.use('/data', function (req, res) {
 
 var numClients = 0; 
 
-var io = require('socket.io')(server);
+
 
 //Whenever someone connects this gets executed
 io.on('connection', function(socket){

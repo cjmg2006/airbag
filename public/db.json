@@ -1,0 +1,5254 @@
+{
+  "events": [
+    {
+      "airbagID": "A00898765553",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B553",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765552",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B552",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765551",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B551",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765550",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B550",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345549",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A549",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765548",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B548",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345547",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A547",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765546",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B546",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765545",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B545",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345544",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A544",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765543",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B543",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765542",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B542",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345541",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A541",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765540",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B540",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765539",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B539",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345538",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A538",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345537",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A537",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765536",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B536",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765535",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B535",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765534",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B534",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345533",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A533",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345532",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A532",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765531",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B531",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345530",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A530",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765529",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B529",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765528",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B528",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765527",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B527",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765526",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B526",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765525",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B525",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345524",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A524",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765523",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B523",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765522",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B522",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765521",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B521",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345520",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A520",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345519",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A519",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765518",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B518",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765517",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B517",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345516",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A516",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345515",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A515",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345514",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A514",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765513",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B513",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345512",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A512",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765511",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B511",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765510",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B510",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765509",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B509",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765508",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B508",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765507",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B507",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765506",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B506",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765505",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B505",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765504",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B504",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765503",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B503",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765502",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B502",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765501",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B501",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765500",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B500",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765499",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B499",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765498",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B498",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765497",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B497",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765496",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B496",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345495",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A495",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345494",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A494",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345493",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A493",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345492",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A492",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765491",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B491",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345490",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A490",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765489",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B489",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345488",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A488",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345487",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A487",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765486",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B486",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345485",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A485",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345484",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A484",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765483",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B483",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345482",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A482",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345481",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A481",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765480",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B480",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765479",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B479",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765478",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B478",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345477",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A477",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765476",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B476",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345475",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A475",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765474",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B474",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345473",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A473",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345472",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A472",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765471",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B471",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765470",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B470",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765469",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B469",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765468",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B468",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765467",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B467",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765466",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B466",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345465",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A465",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345464",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A464",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345463",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A463",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765462",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B462",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765461",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B461",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765460",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B460",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765459",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B459",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345458",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A458",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765457",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B457",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765456",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B456",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765455",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B455",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345454",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A454",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765453",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B453",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345452",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A452",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765451",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B451",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765450",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B450",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765449",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B449",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345448",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A448",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765447",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B447",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765446",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B446",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345445",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A445",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765444",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B444",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345443",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A443",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765442",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B442",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765441",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B441",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765440",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B440",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765439",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B439",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345438",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A438",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765437",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B437",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765436",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B436",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765435",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B435",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765434",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B434",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345433",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A433",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345432",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A432",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345431",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A431",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765430",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B430",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345429",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A429",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765428",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B428",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765427",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B427",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765426",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B426",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765425",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B425",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765424",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B424",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765423",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B423",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765422",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B422",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345421",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A421",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765420",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B420",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765419",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B419",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765418",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B418",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345417",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A417",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345416",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A416",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345415",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A415",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765414",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B414",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765413",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B413",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765412",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B412",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765411",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B411",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765410",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B410",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345409",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A409",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345408",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A408",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345407",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A407",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765406",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B406",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345405",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A405",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345404",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A404",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765403",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B403",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765402",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B402",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765401",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B401",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765400",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B400",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345399",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A399",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765398",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B398",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765397",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B397",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765396",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B396",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765395",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B395",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765394",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B394",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765393",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B393",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345392",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A392",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765391",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B391",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765390",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B390",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765389",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B389",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765388",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B388",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345387",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A387",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345386",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A386",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765385",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B385",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345384",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A384",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345383",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A383",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765382",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B382",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345381",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A381",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345380",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A380",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765379",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B379",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765378",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B378",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765377",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B377",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765376",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B376",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765375",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B375",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765374",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B374",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345373",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A373",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765372",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B372",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765371",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B371",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765370",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B370",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765369",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B369",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765368",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B368",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765367",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B367",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765366",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B366",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345365",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A365",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345364",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A364",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765363",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B363",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765362",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B362",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345361",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A361",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765360",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B360",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765359",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B359",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345358",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A358",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765357",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B357",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765356",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B356",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765355",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B355",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345354",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A354",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765353",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B353",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765352",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B352",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765351",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B351",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765350",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B350",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765349",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B349",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765348",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B348",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765347",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B347",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765346",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B346",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765345",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B345",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765344",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B344",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345343",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A343",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345342",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A342",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345341",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A341",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765340",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B340",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765339",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B339",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345338",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A338",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765337",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B337",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765336",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B336",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765335",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B335",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765334",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B334",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765333",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B333",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765332",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B332",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765331",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B331",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345330",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A330",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345329",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A329",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345328",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A328",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345327",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A327",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765326",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B326",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765325",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B325",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765324",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B324",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765323",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B323",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765322",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B322",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345321",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A321",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345320",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A320",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765319",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B319",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765318",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B318",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345317",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A317",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765316",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B316",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765315",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B315",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765314",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B314",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765313",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B313",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765312",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B312",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765311",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B311",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345310",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A310",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765309",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B309",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765308",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B308",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765307",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B307",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345306",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A306",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765305",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B305",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765304",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B304",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765303",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B303",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765302",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B302",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345301",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A301",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765300",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B300",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765299",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B299",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765298",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B298",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345297",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A297",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765296",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B296",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765295",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B295",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765294",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B294",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765293",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B293",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765292",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B292",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345291",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A291",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765290",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B290",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765289",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B289",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345288",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A288",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765287",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B287",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345286",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A286",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345285",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A285",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765284",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B284",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765283",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B283",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765282",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B282",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345281",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A281",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345280",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A280",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765279",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B279",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345278",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A278",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765277",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B277",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345276",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A276",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765275",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B275",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345274",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A274",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765273",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B273",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765272",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B272",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765271",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B271",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765270",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B270",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345269",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A269",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765268",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B268",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765267",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B267",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765266",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B266",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765265",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B265",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765264",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B264",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765263",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B263",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765262",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B262",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765261",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B261",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765260",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B260",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765259",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B259",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345258",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A258",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765257",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B257",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345256",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A256",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345255",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A255",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765254",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B254",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765253",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B253",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765252",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B252",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345251",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A251",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765250",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B250",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765249",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B249",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345248",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A248",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765247",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B247",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765246",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B246",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345245",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A245",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765244",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B244",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765243",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B243",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345242",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A242",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765241",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B241",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765240",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B240",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765239",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B239",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765238",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B238",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765237",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B237",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765236",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B236",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345235",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A235",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765234",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B234",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345233",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A233",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765232",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B232",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345231",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A231",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765230",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B230",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765229",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B229",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345228",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A228",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765227",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B227",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765226",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B226",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765225",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B225",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765224",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B224",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345223",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A223",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765222",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B222",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765221",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B221",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765220",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B220",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765219",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B219",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345218",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A218",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765217",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B217",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765216",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B216",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765215",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B215",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765214",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B214",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765213",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B213",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345212",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A212",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765211",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B211",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345210",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A210",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765209",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B209",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765208",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B208",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345207",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A207",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345206",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A206",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345205",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A205",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765204",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B204",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765203",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B203",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765202",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B202",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345201",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A201",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765200",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B200",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765199",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B199",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765198",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B198",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345197",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A197",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765196",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B196",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765195",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B195",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765194",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B194",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765193",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B193",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765192",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B192",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765191",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B191",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765190",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B190",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345189",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A189",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345188",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A188",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345187",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A187",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765186",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B186",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765185",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B185",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765184",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B184",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345183",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A183",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765182",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B182",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345181",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A181",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765180",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B180",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345179",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A179",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345178",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A178",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765177",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B177",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765176",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B176",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765175",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B175",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765174",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B174",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765173",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B173",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345172",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A172",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765171",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B171",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765170",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B170",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765169",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B169",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345168",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A168",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345167",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A167",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345166",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A166",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765165",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B165",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345164",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A164",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345163",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A163",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765162",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B162",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765161",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B161",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765160",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B160",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765159",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B159",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345158",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A158",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765157",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B157",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345156",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A156",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345155",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A155",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765154",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B154",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765153",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B153",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765152",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B152",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345151",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A151",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765150",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B150",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765149",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B149",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765148",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B148",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765147",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B147",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345146",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A146",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765145",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B145",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765144",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B144",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345143",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A143",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765142",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B142",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765141",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B141",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345140",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A140",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345139",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A139",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765138",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B138",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765137",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B137",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765136",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B136",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765135",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B135",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765134",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B134",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765133",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B133",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765132",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B132",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345131",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A131",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765130",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B130",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345129",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A129",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765128",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B128",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765127",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B127",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345126",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A126",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345125",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A125",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345124",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A124",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345123",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A123",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765122",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B122",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765121",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B121",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345120",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A120",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765119",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B119",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345118",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A118",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765117",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B117",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345116",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A116",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765115",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B115",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00812345114",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A114",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345113",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A113",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345112",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A112",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765111",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B111",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345110",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A110",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765109",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B109",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345108",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A108",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765107",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B107",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A00898765106",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B106",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345105",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A105",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345104",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A104",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00812345103",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A103",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A00898765102",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B102",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00898765101",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B101",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A00812345100",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A100",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234599",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A99",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234598",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A98",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234597",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A97",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876596",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B96",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876595",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B95",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876594",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B94",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876593",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B93",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876592",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B92",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876591",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B91",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234590",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A90",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876589",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B89",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876588",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B88",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234587",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A87",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234586",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A86",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234585",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A85",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876584",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B84",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876583",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B83",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234582",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A82",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876581",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B81",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234580",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A80",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234579",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A79",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876578",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B78",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876577",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B77",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876576",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B76",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876575",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B75",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876574",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B74",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876573",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B73",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876572",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B72",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234571",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A71",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876570",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B70",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876569",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B69",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234568",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A68",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234567",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A67",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876566",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B66",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234565",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A65",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234564",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A64",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234563",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A63",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876562",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B62",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876561",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B61",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234560",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A60",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876559",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B59",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876558",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B58",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234557",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A57",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876556",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B56",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876555",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B55",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234554",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A54",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876553",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B53",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234552",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A52",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234551",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A51",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876550",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B50",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876549",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B49",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876548",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B48",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234547",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A47",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234546",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A46",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876545",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B45",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876544",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B44",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234543",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A43",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234542",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A42",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876541",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B41",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876540",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B40",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876539",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B39",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876538",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B38",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234537",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A37",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876536",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B36",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234535",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A35",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234534",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A34",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876533",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B33",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876532",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B32",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876531",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B31",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876530",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B30",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876529",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B29",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234528",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A28",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876527",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B27",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876526",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B26",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234525",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A25",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876524",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B24",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876523",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B23",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876522",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B22",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234521",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A21",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234520",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A20",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876519",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B19",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876518",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B18",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876517",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B17",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876516",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B16",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234515",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A15",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234514",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A14",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876513",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B13",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234512",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A12",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234511",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A11",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234510",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A10",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987659",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B9",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123458",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A8",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987656",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B6",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987655",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B5",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008123454",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A4",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123453",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A3",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123452",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A2",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123454",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A4",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123453",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A3",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008123451",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A1",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123450",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A0",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123456",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A6",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123455",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A5",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987654",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B4",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987653",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B3",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234523",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A23",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876522",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B22",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876521",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B21",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876520",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B20",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876519",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B19",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876518",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B18",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234517",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A17",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234516",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A16",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234515",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A15",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876514",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B14",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876513",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B13",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876512",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B12",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234511",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A11",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876510",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B10",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987659",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B9",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987658",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B8",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123456",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A6",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987655",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B5",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008123454",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A4",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123453",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A3",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008123451",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A1",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234541",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A41",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876540",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B40",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234539",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A39",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234538",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A38",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876537",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B37",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876536",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B36",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876535",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B35",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234534",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A34",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876533",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B33",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876532",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B32",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876531",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B31",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876530",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B30",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234529",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A29",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876528",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B28",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876527",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B27",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876526",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B26",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876525",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B25",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234524",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A24",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234523",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A23",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876522",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B22",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876521",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B21",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234520",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A20",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234519",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A19",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876518",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B18",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876517",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B17",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234516",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A16",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876515",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B15",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876514",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B14",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876513",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B13",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876512",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B12",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876511",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B11",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234510",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A10",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123459",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A9",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987658",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B8",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123456",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A6",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123455",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A5",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987654",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B4",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987653",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B3",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008123450",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A0",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876515",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B15",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876514",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B14",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876513",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B13",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876512",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B12",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234511",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A11",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876510",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B10",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987659",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B9",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987658",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B8",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987656",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B6",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987655",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B5",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987654",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B4",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987653",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B3",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008123459",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A9",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987658",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B8",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987656",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B6",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987655",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B5",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987654",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B4",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987653",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B3",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008123452",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A2",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123450",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A0",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876510",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B10",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987659",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B9",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987658",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B8",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987656",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B6",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123455",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A5",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987654",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B4",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987653",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B3",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123456",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A6",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123455",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A5",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987654",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B4",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987653",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B3",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876512",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B12",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876511",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B11",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876510",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B10",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123459",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A9",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008123458",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A8",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987656",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B6",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987655",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B5",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987654",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B4",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008123453",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A3",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876557",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B57",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876556",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B56",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876555",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B55",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876554",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B54",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876553",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B53",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234552",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A52",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876551",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B51",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876550",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B50",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876549",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B49",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876548",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B48",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234547",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A47",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234546",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A46",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876545",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B45",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876544",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B44",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234543",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A43",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876542",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B42",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234541",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A41",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876540",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B40",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876539",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B39",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234538",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A38",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234537",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A37",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234536",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A36",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234535",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A35",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876534",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B34",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234533",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A33",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876532",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B32",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876531",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B31",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234530",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A30",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876529",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B29",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876528",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B28",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876527",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B27",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0081234526",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A26",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876525",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B25",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876524",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B24",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876523",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B23",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876522",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B22",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234521",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A21",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876520",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B20",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876519",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B19",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876518",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B18",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0089876517",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B17",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876516",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B16",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A0081234515",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A15",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0081234514",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A14",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A0089876513",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B13",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876512",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B12",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876511",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B11",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A0089876510",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B10",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987659",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B9",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987658",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B8",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987657",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B7",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987656",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B6",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008123455",
+      "status": "Manufactured",
+      "vin": "1HGCM2633A5",
+      "location": "San Francisco, CA",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "A008987654",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B4",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987653",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B3",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987652",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B2",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "A008987651",
+      "status": "Installed (Unverified)",
+      "vin": "1HGJXN585B1",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "A008987650",
+      "status": "Installed (Verified)",
+      "vin": "1HGJXN585B0",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    }
+  ]
+}

@@ -4,6 +4,9 @@
 
 <head>
 	<link rel="stylesheet" href = "client.css"> </link>
+	<link href="https://fonts.googleapis.com/css?family=Maitree:400, 600" rel="stylesheet"></link>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	 
 </head>
 
 <body>
@@ -22,7 +25,7 @@
 	      </tr>
 	    </thead>
 	    <tbody>
-	      <tr v-for="entry in filteredData">
+	      <tr v-for="entry in filteredData" :class="{ invalid: entry['statusCode'] == 2, valid: entry['statusCode'] == 1}" >
 	        <td v-for="key in columns">
 	          {{entry[key]}}
 	        </td>
@@ -31,20 +34,27 @@
 	  </table>
 	</script>
 
-	<!-- demo root element -->
-	<div id="demo">
-	  <form id="search">
-	    Search <input name="query" v-model="searchQuery">
-	  </form>
-	  <demo-grid
-	    :data="gridData"
-	    :columns="gridColumns"
-	    :filter-key="searchQuery">
-	  </demo-grid>
+	<div class = "container"> 
+		<!-- demo root element -->
+		<div id="demo">
+
+			<div class="searchBar">
+	 		    <input id = "search" name="query" v-model="searchQuery" placeholder="Filter entries using keywords"/>
+		  	</div>
+
+		  <demo-grid
+		    :data="gridData"
+		    :columns="gridColumns"
+		    :filter-key="searchQuery">
+		  </demo-grid>
+
+
+		</div>
 	</div>
 </body>
 
 <script src="https://unpkg.com/vue"></script>
-<script src="clientServer.js"></script>
+<script src="/socket.io/socket.io.js"></script> 
+<script src="clientScript.js"></script>
 
 </html>

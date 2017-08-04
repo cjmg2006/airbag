@@ -1,19 +1,32 @@
 body {
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-size: 14px;
-  color: #444;
+  font-family: 'Maitree', serif;
+  font-size: 16px;
+  color: #042A2B;
+  background-color: #042A2B;
 }
 
 table {
-  border: 2px solid #42b983;
+  border: 2px solid #042A2B;
   border-radius: 3px;
   background-color: #fff;
+  width: 80%;
+  margin: auto;
 }
 
-th {
+.invalid{
+  background-color: #D84727;
+}
+
+.valid{
   background-color: #42b983;
+}
+
+
+th {
+  background-color: #5EB1BF;
   color: rgba(255,255,255,0.66);
   cursor: pointer;
+  font-weight: 600;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -21,7 +34,7 @@ th {
 }
 
 td {
-  background-color: #f9f9f9;
+  /*background-color: #f9f9f9;*/
 }
 
 th, td {
@@ -56,4 +69,33 @@ th.active .arrow {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 4px solid #fff;
+}
+
+.searchBar{
+   
+  position: relative;
+  width:100%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.searchBar input#search{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+   
+
 }
