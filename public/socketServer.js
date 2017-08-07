@@ -226,7 +226,7 @@ function writeTagsToBlockchain() {  // writes all variants to blockchain at poin
 function writeTagToBlockchain(status, root) { 
 	var data; 
 	var aID = root.toString('hex');
-	console.log(aID);
+	console.log(status);
 
 
 	if(status == 0 ) { 
@@ -285,14 +285,14 @@ function dataFn(data) {
 		console.log("Status: " + status);
 		if(status === 'w\r') { // write tags to blockchain (generate for all 6 combinations, but only display 1)
 			console.log("Calling write"); 
-			var airbagID = calculateMerkleRoot(EPCTags); 
+			var airbagID = nonce + calculateMerkleRoot(EPCTags).toString('hex'); 
 			writeTagToBlockchain(0, airbagID);
 		} else if (status === 'r\r') {
 			console.log("Calling read"); 
 			var scanResult = scanBlockchainForTag();
 			if( scanResult != "N/A") {  // if it is a successful match
 				console.log("TRUE MATCH FOUND: " + scanResult);
-				writeTagToBlockchain(1, scanResult); 
+				writeTagToBlockchain(1, nonce + scanResult); 
 			} else { 
 				writeTagToBlockchain(2, scanResult);
 			}
@@ -337,17 +337,17 @@ function sendToSerial(data) { // data = 'k'
 // }, 1000)
 
 
-setInterval(function(){
-	// getLocalRecords();
-	writeTagToBlockchain(2, "N/A");
-}, 3000);
-
-
-
 // setInterval(function(){
 // 	// getLocalRecords();
-// 	sendToSerial('k');
-// }, 10000);
+// 	writeTagToBlockchain(2, "N/A");
+// }, 3000);
+
+
+
+setInterval(function(){
+	// getLocalRecords();
+	sendToSerial('k');
+}, 10000);
 
 if (EPCTags.length == 3) {
 	console.log(EPCTags);

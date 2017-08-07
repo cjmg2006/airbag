@@ -1,18 +1,60 @@
 {
   "events": [
     {
-      "airbagID": "N/A",
+      "airbagID": "3N/A",
       "status": "Installed (Unverified)",
+      "vin": "1HGCM2633A3",
+      "location": "San Francisco, CA",
+      "statusCode": 2
+    },
+    {
+      "airbagID": "219514a9be3ba109df4f8cac813d9c019c8f5335e9539e941164d3f4d4b5e14f30",
+      "status": "Installed (Verified)",
       "vin": "1HGCM2633A2",
       "location": "San Francisco, CA",
-      "statusCode": 2
+      "statusCode": 1
     },
     {
-      "airbagID": "N/A",
-      "status": "Installed (Unverified)",
+      "airbagID": "12cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
+      "status": "Installed (Verified)",
       "vin": "1HGCM2633A1",
       "location": "San Francisco, CA",
-      "statusCode": 2
+      "statusCode": 1
+    },
+    {
+      "airbagID": "0146afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
+      "status": "Installed (Verified)",
+      "vin": "1HGCM2633A0",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "02cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
+      "status": "Installed (Verified)",
+      "vin": "1HGCM2633A0",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "2cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
+      "status": "Installed (Verified)",
+      "vin": "1HGCM2633A3",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "146afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
+      "status": "Installed (Verified)",
+      "vin": "1HGCM2633A2",
+      "location": "San Francisco, CA",
+      "statusCode": 1
+    },
+    {
+      "airbagID": "2cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
+      "status": "Installed (Verified)",
+      "vin": "1HGCM2633A1",
+      "location": "San Francisco, CA",
+      "statusCode": 1
     },
     {
       "airbagID": "N/A",
@@ -22,21 +64,35 @@
       "statusCode": 2
     },
     {
-      "airbagID": "N/A",
-      "status": "Installed (Unverified)",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 2
-    },
-    {
-      "airbagID": "2562ab65f49bda31a371858e843d1a3d9f93c60b94930bc0e646f8d4805fa798",
+      "airbagID": "2cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
       "status": "Manufactured",
       "vin": "N/A",
       "location": "Ogden, UT",
       "statusCode": 0
     },
     {
-      "airbagID": "2562ab65f49bda31a371858e843d1a3d9f93c60b94930bc0e646f8d4805fa798",
+      "airbagID": "146afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "0cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "19514a9be3ba109df4f8cac813d9c019c8f5335e9539e941164d3f4d4b5e14f30",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "0cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
       "status": "Manufactured",
       "vin": "N/A",
       "location": "Ogden, UT",
@@ -47,153 +103,6 @@
       "status": "Manufactured",
       "vin": "N/A",
       "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "0c31a518df06e82f296af049d053c265fb9bd056e0295d09208d3b1b17891527",
-      "status": "Manufactured",
-      "vin": "N/A",
-      "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "2562ab65f49bda31a371858e843d1a3d9f93c60b94930bc0e646f8d4805fa798",
-      "status": "Manufactured",
-      "vin": "N/A",
-      "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "40fe8e24c0bdbfae3b5464932c2c1c2626c40432e3121b7518d47dc91dc09cc6",
-      "status": "Manufactured",
-      "vin": "N/A",
-      "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "9514a9be3ba109df4f8cac813d9c019c8f5335e9539e941164d3f4d4b5e14f30",
-      "status": "Manufactured",
-      "vin": "N/A",
-      "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "46afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
-      "status": "Manufactured",
-      "vin": "N/A",
-      "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "0cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 1
-    },
-    {
-      "airbagID": "122562ab65f49bda31a371858e843d1a3d9f93c60b94930bc0e646f8d4805fa798",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A12",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "69514a9be3ba109df4f8cac813d9c019c8f5335e9539e941164d3f4d4b5e14f30",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A6",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "0cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "1240fe8e24c0bdbfae3b5464932c2c1c2626c40432e3121b7518d47dc91dc09cc6",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A12",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "60c31a518df06e82f296af049d053c265fb9bd056e0295d09208d3b1b17891527",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A6",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "046afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "0cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "02562ab65f49bda31a371858e843d1a3d9f93c60b94930bc0e646f8d4805fa798",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 1
-    },
-    {
-      "airbagID": "18cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A18",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "1246afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A12",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "6cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A6",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "046afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "�\u0014��;�\t�O���=�\u0001��S5�S��\u0011d��Ե�O06",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A6",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "�S�\u0007P����+0@h7���2\n�\f��&_�)xZ�s�0",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "2562ab65f49bda31a371858e843d1a3d9f93c60b94930bc0e646f8d4805fa798",
-      "status": "Manufactured",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
       "statusCode": 0
     }
   ]
