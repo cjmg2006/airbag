@@ -33,10 +33,9 @@ var http = require('http');
 
 var user = "cjmg2006@gmail.com"
 var key = "DiMw7Lp4WmuAK0cxMKxRLwQUlnaZEhmNBJ6LancuWuo="
-var dataStoreID = "1778" // CarChain C
-var tierionURL = "https://api.tierion.com/v1/records"
-var method = "POST"
-
+var dataStoreID = "2892" // Test airbag chain
+var tierionWriteURL = "https://api.tierion.com/v1/records"
+var tierionReadURL = "https://api.tierion.com/v1/records?datastoreId=" + dataStoreID 
 /**********************************************/
 // Setting up stuff required to read from Arduino
 /**********************************************/
@@ -84,8 +83,7 @@ function writeToTierion(payload)  {
 
 	console.log(payload);
 	var request = new XMLHttpRequest(); 
-	// UPDATE PAYLOAD TO INCLUDE DATASTORE ID ETC 
-	request.open(method, tierionURL, false); 
+ 	request.open("POST", tierionWriteURL, false); 
 	var response; 
 	request.onload = function () {
 		var status = request.status; 
@@ -99,6 +97,19 @@ function writeToTierion(payload)  {
 	request.send(payload); 
 
 	console.log("Received response: " + response.id);
+
+}
+
+function getLocalRecords() { 
+	var records = JSON.parse(JSON.stringify(db)).events;
+
+	// for ( var i = 0; i < records.length ; i++) {
+	// 	var record = records[i]; 
+	// 	// console.dir(records[0]);
+	// 	console.log(record.airbagID);
+	// }
+
+	return records; 
 
 }
 
@@ -148,7 +159,7 @@ function parseAndAddTags(tagString) { // returns the status as 'r' or 'w' sot th
 	}
 
 	var status = tagChars[(tagLength + 2) * 3];
-	// console.log(status);
+	console.log(status);
 	
 	return status;
 	
@@ -167,6 +178,8 @@ function resetTags() {
 // Merkle Tree formation and checking
 /**********************************************/
 
+
+
 function createMerkleTree(components) { 
 	var tree = new MerkleTools(); 
 	tree.addLeaves(components, true); 
@@ -174,6 +187,13 @@ function createMerkleTree(components) {
 
 	return tree; 
 } 
+
+function calculateMerkleRoot(components) { 
+	var tree = createMerkleTree(components); 
+	var root = tree.getMerkleRoot(); 
+	return root; 
+}
+
 
 function generateCombinations(a, b, c) {
 	var result = []; 
@@ -187,7 +207,7 @@ function generateCombinations(a, b, c) {
 }
 
 
-function writeTagsToBlockchain(status) {  // writes all variants to blockchain 
+function writeTagsToBlockchain() {  // writes all variants to blockchain at point of manufacture
 
 	var combinations = generateCombinations(EPCTags[0], EPCTags[1], EPCTags[2]); 
 	for(var i = 0 ; i < combinations.length; i++) {
@@ -196,23 +216,56 @@ function writeTagsToBlockchain(status) {  // writes all variants to blockchain
 		var tree = createMerkleTree(combo); 
 		var root = tree.getMerkleRoot(); 
 
-		var aID = root.toString('hex');
-		var data = {airbagID: nonce + aID, status: 'Manufactured',  vin: '1HGCM2633A' + nonce, location: 'San Francisco, CA' , statusCode: 0}
-		if(i == 0) writeToDisplay(data); // DISPLAY ON FRONT-END
-
-		var payload = generatePayload(data, status); 
-		writeToTierion(payload); 
- 		// TODO: Update database with 1st ROOT ONLY 
+		writeTagToBlockchain(0, root); 
 		
 		// console.log(root.inspect()); 
 	}
 	 
 }
 
+function writeTagToBlockchain(status, root) { 
+	var data; 
+	var aID = root.toString('hex');
+	console.log(aID);
+
+
+	if(status == 0 ) { 
+		data = {airbagID: aID, status: 'Manufactured',  vin: 'N/A', location: 'Ogden, UT' , statusCode: 0}
+	} else if (status == 1) {
+		data = {airbagID: aID, status: 'Installed (Verified)',  vin: '1HGCM2633A' + nonce, location: 'San Francisco, CA' , statusCode: 1}
+	} else { 
+		data = {airbagID: aID, status: 'Installed (Unverified)',  vin: '1HGCM2633A' + nonce, location: 'San Francisco, CA' , statusCode: 2}
+	}
+	
+	writeToDisplay(data); // DISPLAY ON FRONT-END
+	var payload = generatePayload(data, status); 
+	writeToTierion(payload); 
+}
+
 function scanBlockchainForTag() {
-	// use the airbagID + add '0' as nonce
-	// search for that in database 
-	// if there, then good. if not, then bad. 
+	console.log("scanning blockchain for tag");
+	var tree = createMerkleTree([EPCTags[0], EPCTags[1], EPCTags[2]]); 
+	var root = tree.getMerkleRoot(); 
+
+	var aID = root.toString('hex');
+	console.log(aID);
+
+	// Get local records, search for aID in Tierion records
+	var records = getLocalRecords();
+	for ( var i = 0; i < records.length ; i++) {
+		var record = records[i]; 
+		var recordID = record.airbagID.substring(1);
+		var recordStatus = record.statusCode;
+
+		if(aID === recordID && recordStatus == 0) {
+			console.log("TRUE MATCH FOUND!!!! <3");
+			return record.airbagID; 
+		}
+		// console.log(recordID);
+	}
+
+	return "N/A";
+
 }
 
 
@@ -226,15 +279,23 @@ function openFn() {
 function dataFn(data) {
 	console.log("Serial: " + data);
 
-	if (data.match(/(([a-zA-Z0-9]{2}\s){12}\s\s){3}w/)) { 
+	if (data.match(/(([a-zA-Z0-9]{2}\s){12}\s\s){3}[wr]/)) { 
 
 		var status = parseAndAddTags(data);   // parse from string to array 
 		console.log("Status: " + status);
 		if(status === 'w\r') { // write tags to blockchain (generate for all 6 combinations, but only display 1)
 			console.log("Calling write"); 
-			writeTagsToBlockchain(status);
+			var airbagID = calculateMerkleRoot(EPCTags); 
+			writeTagToBlockchain(0, airbagID);
 		} else if (status === 'r\r') {
-			scanBlockchainForTag(); 
+			console.log("Calling read"); 
+			var scanResult = scanBlockchainForTag();
+			if( scanResult != "N/A") {  // if it is a successful match
+				console.log("TRUE MATCH FOUND: " + scanResult);
+				writeTagToBlockchain(1, scanResult); 
+			} else { 
+				writeTagToBlockchain(2, scanResult);
+			}
 		}
 
 		resetTags(); 
@@ -277,8 +338,16 @@ function sendToSerial(data) { // data = 'k'
 
 
 setInterval(function(){
-	sendToSerial('k');
-}, 10000);
+	// getLocalRecords();
+	writeTagToBlockchain(2, "N/A");
+}, 3000);
+
+
+
+// setInterval(function(){
+// 	// getLocalRecords();
+// 	sendToSerial('k');
+// }, 10000);
 
 if (EPCTags.length == 3) {
 	console.log(EPCTags);
