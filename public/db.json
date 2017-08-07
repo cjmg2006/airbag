@@ -1,77 +1,63 @@
 {
   "events": [
     {
-      "airbagID": "3N/A",
-      "status": "Installed (Unverified)",
-      "vin": "1HGCM2633A3",
-      "location": "San Francisco, CA",
+      "airbagID": "246afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
       "statusCode": 2
     },
     {
-      "airbagID": "219514a9be3ba109df4f8cac813d9c019c8f5335e9539e941164d3f4d4b5e14f30",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A2",
-      "location": "San Francisco, CA",
+      "airbagID": "1cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
       "statusCode": 1
     },
     {
-      "airbagID": "12cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A1",
-      "location": "San Francisco, CA",
-      "statusCode": 1
-    },
-    {
-      "airbagID": "0146afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 1
-    },
-    {
-      "airbagID": "02cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 1
-    },
-    {
-      "airbagID": "2cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A3",
-      "location": "San Francisco, CA",
-      "statusCode": 1
-    },
-    {
-      "airbagID": "146afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A2",
-      "location": "San Francisco, CA",
-      "statusCode": 1
-    },
-    {
-      "airbagID": "2cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Installed (Verified)",
-      "vin": "1HGCM2633A1",
-      "location": "San Francisco, CA",
-      "statusCode": 1
-    },
-    {
-      "airbagID": "N/A",
-      "status": "Installed (Unverified)",
-      "vin": "1HGCM2633A0",
-      "location": "San Francisco, CA",
-      "statusCode": 2
-    },
-    {
-      "airbagID": "2cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
+      "airbagID": "040fe8e24c0bdbfae3b5464932c2c1c2626c40432e3121b7518d47dc91dc09cc6",
       "status": "Manufactured",
       "vin": "N/A",
       "location": "Ogden, UT",
       "statusCode": 0
     },
     {
-      "airbagID": "146afc06068160f49a576b826f7feeb2c8a1d81da106f09a46abcdae08e822210",
+      "airbagID": "5cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "440fe8e24c0bdbfae3b5464932c2c1c2626c40432e3121b7518d47dc91dc09cc6",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "340fe8e24c0bdbfae3b5464932c2c1c2626c40432e3121b7518d47dc91dc09cc6",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "29514a9be3ba109df4f8cac813d9c019c8f5335e9539e941164d3f4d4b5e14f30",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "12562ab65f49bda31a371858e843d1a3d9f93c60b94930bc0e646f8d4805fa798",
+      "status": "Manufactured",
+      "vin": "N/A",
+      "location": "Ogden, UT",
+      "statusCode": 0
+    },
+    {
+      "airbagID": "00c31a518df06e82f296af049d053c265fb9bd056e0295d09208d3b1b17891527",
       "status": "Manufactured",
       "vin": "N/A",
       "location": "Ogden, UT",
@@ -79,27 +65,6 @@
     },
     {
       "airbagID": "0cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Manufactured",
-      "vin": "N/A",
-      "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "19514a9be3ba109df4f8cac813d9c019c8f5335e9539e941164d3f4d4b5e14f30",
-      "status": "Manufactured",
-      "vin": "N/A",
-      "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "0cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
-      "status": "Manufactured",
-      "vin": "N/A",
-      "location": "Ogden, UT",
-      "statusCode": 0
-    },
-    {
-      "airbagID": "cc539b0750adb2cdec2b304068379d86b1320a970cdddb265fda29785a8773af",
       "status": "Manufactured",
       "vin": "N/A",
       "location": "Ogden, UT",

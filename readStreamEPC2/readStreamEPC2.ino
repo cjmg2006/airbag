@@ -126,7 +126,8 @@ void loop() {
     int ch = Serial.read(); 
      if( ch == 'k') { 
       Serial.println("Ready to read!"); 
-      while (epcs.num < 3) {
+      while (true) {
+        if(epcs.num >= 3) return; 
         if ( nano.check() == true) { 
             byte responseType = nano.parseResponse(); 
             if ( responseType == RESPONSE_IS_TAGFOUND) { 

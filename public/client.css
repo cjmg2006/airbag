@@ -2,7 +2,7 @@ body {
   font-family: 'Maitree', serif;
   font-size: 16px;
   color: #042A2B;
-  background-color: #042A2B;
+  background-color: #323134;
 }
 
 table {
@@ -13,17 +13,22 @@ table {
   margin: auto;
 }
 
+/*#demo { 
+  width: 0.5em;
+  margin: auto;
+}*/
+
 .invalid{
-  background-color: #D84727;
+  background-color: #b2213b;
 }
 
 .valid{
-  background-color: #42b983;
+  background-color: #51abdf;
 }
 
 
 th {
-  background-color: #5EB1BF;
+  background-color: #154a8c;
   color: rgba(255,255,255,0.66);
   cursor: pointer;
   font-weight: 600;
@@ -82,11 +87,11 @@ th.active .arrow {
 .searchBar input#search{
   width: 300px;
   height: 50px;
-  background: #2b303b;
+  background: #464549;
   border: none;
   font-size: 10pt;
   float: left;
-  color: #63717f;
+  color: #807b7c;
   padding-left: 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;

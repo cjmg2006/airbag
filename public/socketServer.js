@@ -81,7 +81,7 @@ function chooseDataPoint(d1, d2, d3) {
 
 function writeToTierion(payload)  {
 
-	console.log(payload);
+	// console.log(payload);
 	var request = new XMLHttpRequest(); 
  	request.open("POST", tierionWriteURL, false); 
 	var response; 
@@ -102,13 +102,6 @@ function writeToTierion(payload)  {
 
 function getLocalRecords() { 
 	var records = JSON.parse(JSON.stringify(db)).events;
-
-	// for ( var i = 0; i < records.length ; i++) {
-	// 	var record = records[i]; 
-	// 	// console.dir(records[0]);
-	// 	console.log(record.airbagID);
-	// }
-
 	return records; 
 
 }
@@ -226,7 +219,7 @@ function writeTagsToBlockchain() {  // writes all variants to blockchain at poin
 function writeTagToBlockchain(status, root) { 
 	var data; 
 	var aID = root.toString('hex');
-	console.log(status);
+	// console.log(status);
 
 
 	if(status == 0 ) { 
@@ -236,10 +229,12 @@ function writeTagToBlockchain(status, root) {
 	} else { 
 		data = {airbagID: aID, status: 'Installed (Unverified)',  vin: '1HGCM2633A' + nonce, location: 'San Francisco, CA' , statusCode: 2}
 	}
+
+	console.log(data);
 	
-	writeToDisplay(data); // DISPLAY ON FRONT-END
-	var payload = generatePayload(data, status); 
-	writeToTierion(payload); 
+	// writeToDisplay(data); // DISPLAY ON FRONT-END
+	// var payload = generatePayload(data, status); 
+	// writeToTierion(payload); 
 }
 
 function scanBlockchainForTag() {
@@ -344,10 +339,10 @@ function sendToSerial(data) { // data = 'k'
 
 
 
-setInterval(function(){
-	// getLocalRecords();
-	sendToSerial('k');
-}, 10000);
+// setInterval(function(){
+// 	// getLocalRecords();
+// 	sendToSerial('k');
+// }, 10000);
 
 if (EPCTags.length == 3) {
 	console.log(EPCTags);
