@@ -9,10 +9,34 @@ table {
   border: 2px solid #042A2B;
   border-radius: 3px;
   background-color: #fff;
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
+img {
+  /*height: 100%;*/
+}
+/*
+#merkle { 
+   position: relative;
+}*/
+
+#merkle{
+  width:100%;
+  /*position: absolute;
+  top: 0px;
+  left: 0px;*/
+}
+
+table {
+   
+  margin-left:0;
+  overflow-x:auto;
+}
+
+.container {
+  margin: 0px;
+}
 /*#demo { 
   width: 0.5em;
   margin: auto;
@@ -81,7 +105,7 @@ th.active .arrow {
   position: relative;
   width:100%;
   text-align: center;
-  margin-left: 10%;
+  /*margin-left: 10%;*/
 }
 
 .searchBar input#search{
@@ -90,7 +114,8 @@ th.active .arrow {
   background: #464549;
   border: none;
   font-size: 10pt;
-  float: left;
+  /*float: left;*/
+  display:block;
   color: #807b7c;
   padding-left: 20px;
   -webkit-border-radius: 5px;
@@ -98,9 +123,30 @@ th.active .arrow {
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
+  /*margin-left: 20px;*/
   margin-right: auto;
-  display: inline-block;
+  /*display: inline-block;*/
    
 
+}
+
+#demoleft {
+  position: absolute;
+  left:0;
+  width:50%;
+  /*top:40px;*/
+  text-align: center;
+}
+#demo {
+  position: absolute;
+  right:0;
+  width:50%;
+  /*top:40px;*/
+  margin: auto;
+}
+
+tr>td:first-child,tr>th:first-child{
+  max-width:120px;
+  overflow: hidden;
+  text-overflow:ellipsis;
 }
