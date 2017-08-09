@@ -8,7 +8,7 @@ var socket = io.connect('/');
 // Functions to interact with Tierion 
 /************************************************************/
 
-// Get Records from Tierion 
+
 
 // register the grid component
 Vue.component('demo-grid', {
@@ -64,8 +64,35 @@ Vue.component('demo-grid', {
   }
 })
 
-socket.on("newEvent", function(data) {
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Change image 
+function changeImage(status) { 
+  console.log("changing images");
+  var image = document.getElementById("merkle"); 
+  if(status == 0) {
+      image.src = "images/00.jpeg"; 
+  } else if (status == 1) {
+      image.src = "images/01.jpeg"; 
+  } else {
+      var rand = getRandomInt(1,2); 
+      if(rand == 1) { 
+        image.src = "images/02a.jpeg"; 
+      } else { 
+        image.src = "images/02b.jpeg"; 
+      }
+      
+  }
+}
+
+
+socket.on("newEvent", function(data, status) {
 	gridData.unshift(data);
+  // console.log(status);
+  changeImage(status);
+  
 
 })
 

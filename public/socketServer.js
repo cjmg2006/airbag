@@ -106,9 +106,9 @@ function getLocalRecords() {
 
 }
 
-function writeToDisplay(chosen) {  // TODO: Update writeToDisplay(status) 
+function writeToDisplay(chosen, status) {  // TODO: Update writeToDisplay(status) 
 	db.read().get('events').unshift(chosen).write(); 
-	io.emit('newEvent', chosen); 
+	io.emit('newEvent', chosen, status); 
 	/*
 	if(status == 0) { // manufactured
 		// update image to a particular one
@@ -241,7 +241,7 @@ function writeTagToBlockchain(status, root) {
 
 	console.log(data);
 	
-	writeToDisplay(data); // DISPLAY ON FRONT-END
+	writeToDisplay(data, status); // DISPLAY ON FRONT-END
 	// var payload = generatePayload(data, status); 
 	// writeToTierion(payload); 
 }
@@ -340,11 +340,13 @@ function sendToSerial(data) { // data = 'k'
 // 	i++; 
 // }, 1000)
 
+var counter = 0; 
 
-// setInterval(function(){
-// 	// getLocalRecords();
-// 	writeTagToBlockchain(2, "N/A");
-// }, 3000);
+setInterval(function(){
+	// getLocalRecords();
+	writeTagToBlockchain(counter % 3, "N/A");
+	counter++; 
+}, 3000);
 
 
 
