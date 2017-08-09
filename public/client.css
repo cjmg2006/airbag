@@ -1,8 +1,8 @@
 body {
-  font-family: 'Maitree', serif;
+  font-family:  'Ubuntu Mono', monospace;
   font-size: 16px;
-  color: #042A2B;
-  background-color: #323134;
+  color: #222;
+  background-color: #222;
 }
 
 table {
@@ -37,10 +37,6 @@ table {
 .container {
   margin: 0px;
 }
-/*#demo { 
-  width: 0.5em;
-  margin: auto;
-}*/
 
 .invalid{
   background-color: #b2213b;
@@ -49,6 +45,8 @@ table {
 .valid{
   background-color: #51abdf;
 }
+
+
 
 
 th {
@@ -60,15 +58,19 @@ th {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
 }
 
 td {
   /*background-color: #f9f9f9;*/
+  border-left: none;
+  border-right: none;
 }
 
 th, td {
   min-width: 120px;
   padding: 10px 20px;
+
 }
 
 th.active {
@@ -150,3 +152,5 @@ tr>td:first-child,tr>th:first-child{
   overflow: hidden;
   text-overflow:ellipsis;
 }
+
+

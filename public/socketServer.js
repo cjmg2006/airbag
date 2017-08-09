@@ -106,9 +106,20 @@ function getLocalRecords() {
 
 }
 
-function writeToDisplay(chosen) { 
-	db.read().get('events').unshift(chosen).write();
-	io.emit('newEvent', chosen);
+function writeToDisplay(chosen) {  // TODO: Update writeToDisplay(status) 
+	db.read().get('events').unshift(chosen).write(); 
+	io.emit('newEvent', chosen); 
+	/*
+	if(status == 0) { // manufactured
+		// update image to a particular one
+	} else if (status == 1) { // verified
+		// update image to another one
+	} else { // unverfied
+		// randomly choose between 1 of 2 images
+		// update image to another one 
+
+	}
+	*/
 }
 
 function generatePayload(record, status) { 
@@ -171,8 +182,6 @@ function resetTags() {
 // Merkle Tree formation and checking
 /**********************************************/
 
-
-
 function createMerkleTree(components) { 
 	var tree = new MerkleTools(); 
 	tree.addLeaves(components, true); 
@@ -232,7 +241,7 @@ function writeTagToBlockchain(status, root) {
 
 	console.log(data);
 	
-	// writeToDisplay(data); // DISPLAY ON FRONT-END
+	writeToDisplay(data); // DISPLAY ON FRONT-END
 	// var payload = generatePayload(data, status); 
 	// writeToTierion(payload); 
 }
