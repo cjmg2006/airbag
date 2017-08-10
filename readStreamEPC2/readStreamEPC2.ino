@@ -28,7 +28,7 @@ void setup() {
 
   nano.setRegion(REGION_NORTHAMERICA); //Set to North America
 
-  nano.setReadPower(1500); //5.00 dBm. Higher values may caues USB port to brown out
+  nano.setReadPower(2000); //5.00 dBm. Higher values may caues USB port to brown out
   //Max Read TX Power is 27.00 dBm and may cause temperature-limit throttling
 
   nano.startReading(); //Begin scanning for tags
@@ -41,7 +41,8 @@ void setup() {
 struct EPCs { 
   byte tags[3][12] = {{0}};
   int num = 0;  
-
+ 
+  
   bool matches (byte t1[], byte t2[]) { 
     for (byte i = 0; i < 12 ; i++) { 
       if( t1[i] != t2[i] ) return false;
@@ -62,15 +63,15 @@ struct EPCs {
   }
 
   void save (byte * tag, byte tagEPCBytes) { 
+    Serial.println("Saving tag..."); 
     for(byte i = 0; i < tagEPCBytes; i++) { 
       tags[num][i] = tag[i];
     }
 //    printTag(tags[num], tagEPCBytes);
-
     num++; 
 //    Serial.println(num);
-//    Serial.print("Num tags saved: ");
-//    Serial.println(num); 
+    Serial.print("Num tags saved: ");
+    Serial.println(num); 
   }
 
   void printTagsToSerial() { 
@@ -83,7 +84,7 @@ struct EPCs {
         Serial.print(F("  "));
       
       }
-    Serial.println("w");
+    Serial.println("r");
   }
 
   void reset() {
@@ -103,7 +104,7 @@ struct EPCs {
   
 };
 
-EPCs epcs = EPCs();
+
 
 void getEPC(byte * currTag, byte tagEPCBytes) { 
   for (byte x = 0; x < tagEPCBytes; x++ ) { 
@@ -119,49 +120,68 @@ void printTag(byte * tag, byte tagEPCBytes) {
   Serial.println(); 
 }
 
-
+EPCs epcs = EPCs();
+byte lastTag[12]; 
 
 void loop() {
-  if(Serial.available() > 0) { 
-    int ch = Serial.read(); 
-     if( ch == 'k') { 
-      Serial.println("Ready to read!"); 
-      while (true) {
-        if(epcs.num >= 3) return; 
+    
+    //int ch = Serial.read(); 
+     //if( ch == 'k') { 
+//      Serial.println("Ready to read!"); 
+//      Serial.println(epcs.num);
+      if (epcs.num < 3) {
+         
         if ( nano.check() == true) { 
+//          Serial.println("Hmm");
             byte responseType = nano.parseResponse(); 
             if ( responseType == RESPONSE_IS_TAGFOUND) { 
+//              Serial.println("Found!!!!!!");
                 byte tagEPCBytes = nano.getTagEPCBytes(); //Get the number of bytes of EPC from response
-                if (epcs.num < 3 && tagEPCBytes > 0) { 
+                if (epcs.num < 3 && tagEPCBytes == 12) { 
+//                  Serial.println("Get!!!!!!");
                   byte currTag[tagEPCBytes];
                   getEPC(currTag, tagEPCBytes);
       //            printTag(currTag, tagEPCBytes); 
-                  if(!epcs.contains(currTag)) {
-                    epcs.save(currTag, tagEPCBytes); 
-                    
-                    tone(BUZZER1, 2093, 150); //C
-                    delay(150);
-                    tone(BUZZER1, 2349, 150); //D
-                    delay(150);
-                    tone(BUZZER1, 2637, 150); //E
-                    delay(150); 
+                  if(!epcs.matches(currTag, lastTag)) {
+                    if(!epcs.contains(currTag)) {
+  //                    Serial.println("Save!!!!!!");
+                      epcs.save(currTag, tagEPCBytes); 
+                      
+                      tone(BUZZER1, 2093); //C
+                      delay(150);
+                      tone(BUZZER1, 2349); //D
+                      delay(150);
+                      tone(BUZZER1, 2637); //E
+                      delay(150);
+                      noTone(BUZZER1);
+                    }
+                    for (int n=0;n<12;n++){lastTag[n]=currTag[n];}
                   }
                 } 
-            }  
-        }
-      }
+                //while(nano.check() && nano.parseResponse() == RESPONSE_IS_TAGFOUND) { nano.getTagEPCBytes(); }
 
+            }  
+            
+        }
+        
         if (epcs.num == 3) { 
            epcs.printTagsToSerial(); 
            
            epcs.reset(); 
+
+           delay(1500);
+           while(nano.check() && nano.parseResponse() == RESPONSE_IS_TAGFOUND) { nano.getTagEPCBytes(); }
+
            Serial.println("Read all 3 tags");
         }
-       
-      Serial.println("Enter 'k' to begin read");
-      
-     }
+      }
 
+       
+      //Serial.println("Enter 'k' to begin read");
+      
+     //}
+if(Serial.available() > 0) { 
+  int ch = Serial.read(); 
      if( ch == 't') { 
           //Beep! Piano keys to frequencies: http://www.sengpielaudio.com/KeyboardAndFrequencies.gif
           tone(BUZZER1, 2093, 150); //C

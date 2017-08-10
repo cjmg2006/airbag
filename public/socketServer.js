@@ -47,6 +47,11 @@ var port = new SerialPort('/dev/cu.usbmodem1421', {
   parser: SerialPort.parsers.readline("\n")
 });
 
+var port2 = new SerialPort('/dev/cu.usbmodem1411', {
+  baudRate: 115200, 
+  parser: SerialPort.parsers.readline("\n")
+});
+
 /**********************************************/
 // Setting up Merkle Tree generation stuff
 /**********************************************/
@@ -109,6 +114,7 @@ function getLocalRecords() {
 function writeToDisplay(chosen, status) {  // TODO: Update writeToDisplay(status) 
 	db.read().get('events').unshift(chosen).write(); 
 	io.emit('newEvent', chosen, status); 
+	console.log("UPDATING DISPLAY YAYYYY");
 	/*
 	if(status == 0) { // manufactured
 		// update image to a particular one
@@ -289,7 +295,7 @@ function dataFn(data) {
 		console.log("Status: " + status);
 		if(status === 'w\r') { // write tags to blockchain (generate for all 6 combinations, but only display 1)
 			console.log("Calling write"); 
-			var airbagID = nonce + calculateMerkleRoot(EPCTags).toString('hex'); 
+			var airbagID = nonce + calculateMerkleRoot(EPCTags).toString('hex');
 			writeTagToBlockchain(0, airbagID);
 		} else if (status === 'r\r') {
 			console.log("Calling read"); 
@@ -317,9 +323,21 @@ port.on("data", dataFn);
 port.on("error", errorFn); 
 port.on("close", closeFn); 
 
-function sendToSerial(data) { // data = 'k'
-	port.write(data);
-	console.log('Sent to serial');
+port2.on("open", openFn); 
+port2.on("data", dataFn); 
+port2.on("error", errorFn); 
+port2.on("close", closeFn); 
+
+function sendToSerial(data, num) { // data = 'k'
+	if (num == 1) { 
+		port.write(data);
+		console.log('Sent to serial: w');
+	} else {
+		port2.write(data);
+		console.log('Sent to serial: r');
+	}
+	
+	
 }
 
 
@@ -342,17 +360,17 @@ function sendToSerial(data) { // data = 'k'
 
 var counter = 0; 
 
-setInterval(function(){
-	// getLocalRecords();
-	writeTagToBlockchain(counter % 3, "N/A");
-	counter++; 
-}, 3000);
-
+// setInterval(function(){
+// 	// getLocalRecords();
+// 	writeTagToBlockchain(counter % 3, "N/A");
+// 	counter++; 
+// }, 3000);
 
 
 // setInterval(function(){
 // 	// getLocalRecords();
-// 	sendToSerial('k');
+// 	sendToSerial('k', counter % 2 + 1);
+// 	counter ++ ; 
 // }, 10000);
 
 if (EPCTags.length == 3) {

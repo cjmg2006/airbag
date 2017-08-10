@@ -20,11 +20,12 @@ var EPCTagStrings = [];
 var EPCTags = []; 
 
 // Stored components for Merkle Tree
-var componentA = "SDR170318466"
-var componentB = "3DC027D13824"
-var componentC = "2DC033D14233"
-var componentD = "3DC027D1fake"
-var componentE = "2DC033D1fake"
+var componentA = "cover0318466"
+var componentB = "cushion13824"
+var componentC = "inflator4231"
+var componentF = "cover031fake"
+var componentD = "cushion1fake"
+var componentE = "inflatorfake"
 var componentBank = { 'A': componentA, 'B': componentB, 'C': componentC, 'D': componentD, 'E': componentE }
 
 var realAirbagRoots = []; 

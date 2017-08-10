@@ -13,13 +13,10 @@ table {
   margin: auto;
 }
 
-img {
-  /*height: 100%;*/
+button { 
+  border-radius: 5px;
+  padding: 10px 20px;
 }
-/*
-#merkle { 
-   position: relative;
-}*/
 
 #merkle{
   width:100%;
@@ -68,6 +65,7 @@ td {
 }
 
 th, td {
+
   min-width: 120px;
   padding: 10px 20px;
 
