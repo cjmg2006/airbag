@@ -33,7 +33,7 @@ var http = require('http');
 
 var user = "cjmg2006@gmail.com"
 var key = "DiMw7Lp4WmuAK0cxMKxRLwQUlnaZEhmNBJ6LancuWuo="
-var dataStoreID = "2892" // Test airbag chain
+var dataStoreID = "2892" // Test airbag chain. Actual: 2945
 var tierionWriteURL = "https://api.tierion.com/v1/records"
 var tierionReadURL = "https://api.tierion.com/v1/records?datastoreId=" + dataStoreID 
 /**********************************************/
@@ -248,8 +248,8 @@ function writeTagToBlockchain(status, root) {
 	console.log(data);
 	
 	writeToDisplay(data, status); // DISPLAY ON FRONT-END
-	// var payload = generatePayload(data, status); 
-	// writeToTierion(payload); 
+	var payload = generatePayload(data, status); 
+	writeToTierion(payload); 
 }
 
 function scanBlockchainForTag() {
