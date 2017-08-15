@@ -15,14 +15,25 @@ Other code references used:
 - Sparkfun Simultaneous RFID Tag Reader Library (for Arduino: https://github.com/sparkfun/SparkFun_Simultaneous_RFID_Tag_Reader_Library)
 - Tierion Data API (https://tierion.com/docs/dataapi)
 
-
 ## How to Run 
 
-## File Descriptions
+1. Upload 'Manufacture' code into 1 Arduino  
+	- File name: arduino.ino
+	- Set line 87 to "Serial.println('w')"
+	- Upload file to Arduino 
 
+2. Upload 'Install' code into another Arduino
+	- File name: arduino.ino
+	- Set line 87 to "Serial.println('r')"
+	- Upload file to Arduino 
+
+3. Connect Arduino (w/ RFID readers attached) to computer 
+
+4. Run server
+	- In terminal, run "node server.js"
+	- Currently, server is running on localhost:8000
+
+5. Open index.html in browser
+ 
 ## Hardware 
 
-
-### Testing 
-
-Hello world
