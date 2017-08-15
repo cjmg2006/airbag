@@ -141,7 +141,7 @@ th.active .arrow {
   position: absolute;
   right:0;
   width:50%;
-  /*top:40px;*/
+  top:120px; /* remove for breakout presentation */
   margin: auto;
 }
 

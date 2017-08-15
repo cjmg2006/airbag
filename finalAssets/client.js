@@ -1,13 +1,8 @@
-//TODO: Update the data with data from Tierion CarChain C
-user = 'cjmg2006@gmail.com'
-key = 'DiMw7Lp4WmuAK0cxMKxRLwQUlnaZEhmNBJ6LancuWuo='
-
 var socket = io.connect('/');
 
 /************************************************************/
-// Functions to interact with Tierion 
+// Takes the data from db.json and displays.  
 /************************************************************/
-
 
 
 // register the grid component
@@ -68,7 +63,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Change image 
+// Change image on left
 function changeImage(status) { 
   console.log("changing images");
   var image = document.getElementById("merkle"); 
@@ -88,6 +83,7 @@ function changeImage(status) {
 }
 
 
+// Change image when a newEvent happens (e.g. manufacture / install)
 socket.on("newEvent", function(data, status) {
 	gridData.unshift(data);
   // console.log(status);
@@ -96,6 +92,8 @@ socket.on("newEvent", function(data, status) {
 
 })
 
+
+// Loads all the data on load 
 socket.on("allEvents", function(data) {
 	gridData = data;
 

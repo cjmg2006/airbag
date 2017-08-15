@@ -2,7 +2,7 @@
 
 
 /**********************************************/
-// Setting up Server 
+// Setting up Express Server 
 /**********************************************/
 
 var express = require('express');
@@ -18,7 +18,6 @@ app.use(express.static('.'))
 
 var db = require('lowdb')('db.json');
 db.defaults({ events: [] }).write();
-
 
 /**********************************************/
 // Setting up HTTP Request stuff
@@ -36,6 +35,8 @@ var key = "DiMw7Lp4WmuAK0cxMKxRLwQUlnaZEhmNBJ6LancuWuo="
 var dataStoreID = "2892" // Test airbag chain. Actual: 2945
 var tierionWriteURL = "https://api.tierion.com/v1/records"
 var tierionReadURL = "https://api.tierion.com/v1/records?datastoreId=" + dataStoreID 
+
+
 /**********************************************/
 // Setting up stuff required to read from Arduino
 /**********************************************/
@@ -45,12 +46,12 @@ var SerialPort = require('serialport');
 var port = new SerialPort('/dev/cu.usbmodem1421', {
   baudRate: 115200, 
   parser: SerialPort.parsers.readline("\n")
-});
+}); // One for MANUFACTURE: CHANGE port name as necessary
 
 var port2 = new SerialPort('/dev/cu.usbmodem1411', {
   baudRate: 115200, 
   parser: SerialPort.parsers.readline("\n")
-});
+}); // One for INSTALL: CHANGE port name as necessary
 
 /**********************************************/
 // Setting up Merkle Tree generation stuff
@@ -81,12 +82,9 @@ function chooseDataPoint(d1, d2, d3) {
 	if(num % 3 == 0) return d1;
 	if(num % 3 == 1) return d2;
 	if(num % 3 == 2) return d3;
-
 }
 
 function writeToTierion(payload)  {
-
-	// console.log(payload);
 	var request = new XMLHttpRequest(); 
  	request.open("POST", tierionWriteURL, false); 
 	var response; 
@@ -95,49 +93,35 @@ function writeToTierion(payload)  {
 		console.log("Status of request: " + status); 
 		response = request.responseText; 
 	}
-
 	request.setRequestHeader("Content-Type", "application/json; charset=utf-8");
 	request.setRequestHeader('X-Username', user);
 	request.setRequestHeader('X-Api-Key',key);
 	request.send(payload); 
-
 	console.log("Received response: " + response.id);
 
 }
 
+// Currently, the code reads and scans the local records (db.json) for airbag existence 
 function getLocalRecords() { 
 	var records = JSON.parse(JSON.stringify(db)).events;
 	return records; 
-
 }
 
-function writeToDisplay(chosen, status) {  // TODO: Update writeToDisplay(status) 
+function writeToDisplay(chosen, status) {   
 	db.read().get('events').unshift(chosen).write(); 
 	io.emit('newEvent', chosen, status); 
-	console.log("UPDATING DISPLAY YAYYYY");
-	/*
-	if(status == 0) { // manufactured
-		// update image to a particular one
-	} else if (status == 1) { // verified
-		// update image to another one
-	} else { // unverfied
-		// randomly choose between 1 of 2 images
-		// update image to another one 
-
-	}
-	*/
+	// console.log("UPDATING DISPLAY YAYYYY");
 }
 
+// Generates payload to send to Tierion 
 function generatePayload(record, status) { 
 	record.datastoreId = dataStoreID; 
 	nonce++;
 	return JSON.stringify(record); 
 }
 
-
-
 /*******************************************************/
-// CODE: Code for reading from Arduino
+// Code for reading from Arduino Serial 
 /*******************************************************/
 
 var EPCTags = []; 
@@ -154,12 +138,8 @@ function hexToAscii(tagCharArray) { // tagCharArray is a character array e.g. [ 
 
 function parseAndAddTags(tagString) { // returns the status as 'r' or 'w' sot that server knows what to do with it
 	 
-	var tagLength = 12; 
-
-	// console.log(tagString);
+	var tagLength = 12;  // Tag length is 12 bytes
 	var tagChars = tagString.split(" ");
-
-	// console.log(tagChars);
 
 	for (var i = 0; i < 3 ; i++) {
 		var startIndex = (tagLength + 2) * i;
@@ -172,11 +152,6 @@ function parseAndAddTags(tagString) { // returns the status as 'r' or 'w' sot th
 	console.log(status);
 	
 	return status;
-	
-		// tagChars.splice(-1,1);
- 	// 	var tag = hexToAscii(tagChars);  // tag is a 12-char string e.g. "ST31D12dEWG"
-		// EPCTags.push(tag); 
-
 }
 
 function resetTags() {
@@ -192,7 +167,6 @@ function createMerkleTree(components) {
 	var tree = new MerkleTools(); 
 	tree.addLeaves(components, true); 
 	tree.makeTree();
-
 	return tree; 
 } 
 
@@ -215,18 +189,17 @@ function generateCombinations(a, b, c) {
 }
 
 
-function writeTagsToBlockchain() {  // writes all variants to blockchain at point of manufacture
+function writeTagsToBlockchain() {  // writes all variants to blockchain at point of manufacture. 
+	// Note: This function exists because we cannot predict / control the order that the RFID scanner 
+	// is able to scan the tags. Therefore, to ensure that all possible combinations will be recognized
+	// as valid, we place all 6 combinations on the blockchain.  
 
 	var combinations = generateCombinations(EPCTags[0], EPCTags[1], EPCTags[2]); 
 	for(var i = 0 ; i < combinations.length; i++) {
 		var combo = combinations[i]; 
-		// console.log("Combos: " + combo);
 		var tree = createMerkleTree(combo); 
 		var root = tree.getMerkleRoot(); 
-
 		writeTagToBlockchain(0, root); 
-		
-		// console.log(root.inspect()); 
 	}
 	 
 }
@@ -234,8 +207,6 @@ function writeTagsToBlockchain() {  // writes all variants to blockchain at poin
 function writeTagToBlockchain(status, root) { 
 	var data; 
 	var aID = root.toString('hex');
-	// console.log(status);
-
 
 	if(status == 0 ) { 
 		data = {airbagID: aID, status: 'Manufactured',  vin: 'N/A', location: 'Ogden, UT' , statusCode: 0}
@@ -247,20 +218,21 @@ function writeTagToBlockchain(status, root) {
 
 	console.log(data);
 	
-	writeToDisplay(data, status); // DISPLAY ON FRONT-END
+	writeToDisplay(data, status); // Display on front-end
 	var payload = generatePayload(data, status); 
 	writeToTierion(payload); 
 }
 
 function scanBlockchainForTag() {
-	console.log("scanning blockchain for tag");
+	// console.log("scanning blockchain for tag");
 	var tree = createMerkleTree([EPCTags[0], EPCTags[1], EPCTags[2]]); 
 	var root = tree.getMerkleRoot(); 
 
 	var aID = root.toString('hex');
-	console.log(aID);
+	// console.log(aID);
 
-	// Get local records, search for aID in Tierion records
+	// Get local records, search for aID in local records
+	// Note: This should be changed to search for aID in Tierion records. For demo purposes, searching the db is enough
 	var records = getLocalRecords();
 	for ( var i = 0; i < records.length ; i++) {
 		var record = records[i]; 
@@ -268,10 +240,9 @@ function scanBlockchainForTag() {
 		var recordStatus = record.statusCode;
 
 		if(aID === recordID && recordStatus == 0) {
-			console.log("TRUE MATCH FOUND!!!! <3");
+			// console.log("TRUE MATCH FOUND!!!! <3");
 			return record.airbagID; 
 		}
-		// console.log(recordID);
 	}
 
 	return "N/A";
@@ -281,6 +252,8 @@ function scanBlockchainForTag() {
 
 /**********************************************/
 // Read from serial port 
+// Note: Same serial port code is used for both arduinos. 
+// Difference in behavior comes only from the different messages sent to the server. 
 /**********************************************/
 function openFn() { 
 	console.log('Communication is on! Successfully connected to Arduino');
@@ -295,24 +268,20 @@ function dataFn(data) {
 		console.log("Status: " + status);
 		if(status === 'w\r') { // write tags to blockchain (generate for all 6 combinations, but only display 1)
 			console.log("Calling write"); 
-			var airbagID = nonce + calculateMerkleRoot(EPCTags).toString('hex');
+			var airbagID = calculateMerkleRoot(EPCTags).toString('hex');
 			writeTagToBlockchain(0, airbagID);
 		} else if (status === 'r\r') {
 			console.log("Calling read"); 
 			var scanResult = scanBlockchainForTag();
 			if( scanResult != "N/A") {  // if it is a successful match
 				console.log("TRUE MATCH FOUND: " + scanResult);
-				writeTagToBlockchain(1, nonce + scanResult); 
+				writeTagToBlockchain(1, nonce % 10 + scanResult); 
 			} else { 
 				writeTagToBlockchain(2, scanResult);
 			}
 		}
-
-		resetTags(); 
-		 
+		resetTags();  
 	}
-
-
 }
 
 function errorFn() {}
@@ -336,12 +305,7 @@ function sendToSerial(data, num) { // data = 'k'
 		port2.write(data);
 		console.log('Sent to serial: r');
 	}
-	
-	
 }
-
-
-
 
 
 

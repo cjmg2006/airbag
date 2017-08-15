@@ -84,7 +84,7 @@ struct EPCs {
         Serial.print(F("  "));
       
       }
-    Serial.println("r");
+    Serial.println("w");
   }
 
   void reset() {
