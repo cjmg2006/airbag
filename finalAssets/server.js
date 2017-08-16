@@ -58,7 +58,7 @@ var port2 = new SerialPort('/dev/cu.usbmodem1411', {
 /**********************************************/
 
 var crypto = require('crypto');
-var MerkleTools = require('../merkle-tools/merkletools.js');
+var MerkleTools = require('./merkle-tools/merkletools.js');
 
 
 /**********************************************/
@@ -104,6 +104,7 @@ function writeToTierion(payload)  {
 // Currently, the code reads and scans the local records (db.json) for airbag existence 
 function getLocalRecords() { 
 	var records = JSON.parse(JSON.stringify(db)).events;
+	console.log (records.length); 
 	return records; 
 }
 
@@ -229,18 +230,19 @@ function scanBlockchainForTag() {
 	var root = tree.getMerkleRoot(); 
 
 	var aID = root.toString('hex');
-	// console.log(aID);
+	console.log(aID);
 
 	// Get local records, search for aID in local records
 	// Note: This should be changed to search for aID in Tierion records. For demo purposes, searching the db is enough
 	var records = getLocalRecords();
 	for ( var i = 0; i < records.length ; i++) {
 		var record = records[i]; 
-		var recordID = record.airbagID.substring(1);
+		var recordID = record.airbagID;
+		// var recordID = record.airbagID.substring(1);
 		var recordStatus = record.statusCode;
 
 		if(aID === recordID && recordStatus == 0) {
-			// console.log("TRUE MATCH FOUND!!!! <3");
+			console.log("TRUE MATCH FOUND!!!! <3");
 			return record.airbagID; 
 		}
 	}
