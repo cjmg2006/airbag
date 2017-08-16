@@ -1,0 +1,31 @@
+{
+  "name": "blokmotiv",
+  "version": "1.0.0",
+  "description": "A physical/digital tagging system that enables transparency and traceability through aggregated identity and shared truth",
+  "main": "proofs.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "firmata": "^0.17.0",
+    "js-sha3": "^0.6.1",
+    "json-size": "^1.0.0",
+    "lowdb": "^0.16.2",
+    "object-sizeof": "^1.2.0",
+    "serialport": "^4.0.7",
+    "socket.io": "^2.0.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjmg2006/airbag.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjmg2006/airbag/issues"
+  },
+  "homepage": "https://github.com/cjmg2006/airbag#readme"
+}
