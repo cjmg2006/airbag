@@ -68,7 +68,7 @@ Other code references used:
 	- Please note that the most important pins on the SparkFun Simultaneous RFID Reader - M6E Nano board are as follows:
 		- RX (Digital 0), TX (Digital 1), Digital 2, Digital 3 - communication
 		- Digital 9, Digital 10 - buzzer
-		- 5V + GND - ground
+		- 5V + GND - power
 
 2. Gently mount the SparkFun Simultaneous RFID Reader - M6E Nano shield to the Arduino
 	- Pins tend to bend easily, so ensure careful alignment
