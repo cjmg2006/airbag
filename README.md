@@ -35,5 +35,60 @@ Other code references used:
 
 5. Open index.html in browser
  
-## Hardware 
+## Bill of Materials
+
+1. Arduino Uno - R3 (https://www.sparkfun.com/products/11021)
+	- Part: DEV-11021
+	- Quantity: 2
+
+2. SparkFun Simultaneous RFID Reader - M6E Nano (https://www.sparkfun.com/products/14066)
+	- Part: SEN-14066
+	- Quantity: 2
+
+3. Arduino Stackable Header Kit (https://www.sparkfun.com/products/10007)
+	- Part: PRT-10007
+	- Quantity: 2	
+
+4. UHF RFID Tag - Adhesive (Set of 5) (https://www.sparkfun.com/products/14151)
+	- Part: WRL-14151
+	- Quantity: 2
+
+5. Cable A to B - 6 Foot (https://www.sparkfun.com/products/512)
+	- Part: CAB-00512
+	- Quantity: 2
+
+6. Wall Adapter Power Supply - 5V DC 2A (Barrel Jack) (https://www.sparkfun.com/products/12889) 
+	- Part: TOL-12889
+	- Quantity: 2
+
+## Hardware Assembly Instructions
+
+1. Carefully solder pins from Arduino Stackable Header Kit onto the SparkFun Simultaneous RFID Reader - M6E Nano board
+	- For detailed information on the SparkFun Simultaneous RFID Reader - M6E Nano including how to interface with it, check out this guide
+	- Please note that the most important pins on the SparkFun Simultaneous RFID Reader - M6E Nano board are as follows:
+		- RX (Digital 0), TX (Digital 1), Digital 2, Digital 3 - communication
+		- Digital 9, Digital 10 - buzzer
+		- 5V + GND - ground
+
+2. Gently mount the SparkFun Simultaneous RFID Reader - M6E Nano shield to the Arduino
+	- Pins tend to bend easily, so ensure careful alignment
+
+3. Plug the cables
+	- Connect the Cable A to B - 6 Foot USB cable to the computer and then the Arduino
+	- Next plug the Wall Adapter Power Supply - 5V DC 2A (Barrel Jack) into the Arduino
+
+4. In the Arduino IDE, open the “Read_EPC” example sketch (File → Examples → Sparkfun Simultaneous RFID Tag Reader Library → Example2_Read_EPC)
+	- Upload “Read_EPC”
+	- Test with the Arduino Serial Monitor
+
+5. Open our custom software (“arduino.ino”)
+	- Upload
+ 	- Test with the Arduino Serial Monitor
+ 	- Follow the "How To Run" section
+
+
+
+
+
+
 
