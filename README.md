@@ -7,13 +7,16 @@ Download these packages before you run the code.
 
 - Node JS (https://nodejs.org/en/)
 - Express JS (https://expressjs.com/)
-- Serialport JS (https://www.npmjs.com/package/serialport, v4.0.7)
-- Merkle Tools JS (https://github.com/Tierion/merkle-tools)
+	- npm install express --save
+- Serialport JS (https://www.npmjs.com/package/serialport, v4.0.7) <-- Make sure to install v4.0.7, and NOT the latest version, v5.0
+	- npm install serialport@v4.0.7
 - Socket I/O (https://socket.io/)
+	- npm install socket.io
 
 Other code references used: 
 - Sparkfun Simultaneous RFID Tag Reader Library (for Arduino: https://github.com/sparkfun/SparkFun_Simultaneous_RFID_Tag_Reader_Library)
 - Tierion Data API (https://tierion.com/docs/dataapi)
+- Merkle Tools JS (https://github.com/Tierion/merkle-tools)
 
 ## How to Run 
 
@@ -29,11 +32,13 @@ Other code references used:
 
 3. Connect Arduino (w/ RFID readers attached) to computer 
 
-4. Run server
-	- In terminal, run "node server.js"
+4. Go to ./finalAssets/
+
+5. Run server
+	- In terminal, run "node server.js" 
 	- Currently, server is running on localhost:8000
 
-5. Open index.html in browser
+6. Open index.html in browser
  
 ## Bill of Materials
 
