@@ -12,13 +12,15 @@ Download these packages before you run the code.
 	- npm install serialport@v4.0.7
 - Socket I/O (https://socket.io/)
 	- npm install socket.io
+- Merkle Tools JS (https://github.com/Tierion/merkle-tools)
+	- npm install merkle-tools --save
 
 Other code references used: 
 - Sparkfun Simultaneous RFID Tag Reader Library (for Arduino: https://github.com/sparkfun/SparkFun_Simultaneous_RFID_Tag_Reader_Library)
 - Tierion Data API (https://tierion.com/docs/dataapi)
-- Merkle Tools JS (https://github.com/Tierion/merkle-tools)
 
-## How to Run 
+
+## How to Run Code
 
 1. Upload 'Manufacture' code into 1 Arduino  
 	- File name: arduino.ino
@@ -39,6 +41,8 @@ Other code references used:
 	- Currently, server is running on localhost:8000
 
 6. Open index.html in browser
+
+
  
 ## Bill of Materials
 
@@ -92,7 +96,14 @@ Other code references used:
  	- Follow the "How To Run" section
 
 
+## Demo Setup Instructions 
 
+1. If you would like to clear the local database, clear it by deleting finalAssets/db.json. The server script automatically creates an empty db.json file if none exists in the main folder.  
+
+2. When you have an empty db.json, scan all 6 permutations of any particular airbag assembly into the Manufacture Arduino (labelled A). Since each bag has 3 tag, you do so by scanning each tag sequentially, for all possible sequences. 
+- This stores the IDs of all possible scan orders into the database. 
+
+3. Do not scan the airbag labelled B on the Manufacture Arduino - or it will record it as a legitimately manufactured airbag.
 
 
 
